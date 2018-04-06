@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/images/french/connect_btn_french.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/french/connect_btn.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/french/website_btn_french.png</value>
+  </data>
+  <data name="dd" xml:space="preserve">
+    <value>jour</value>
+  </data>
+  <data name="ddd" xml:space="preserve">
+    <value>journées</value>
+  </data>
+  <data name="f1" xml:space="preserve">
+    <value>Cher client, nous fournissons également les plans Internet Plans et Premium Basic Internet qui sont sur ​​une base payé. Pour continuer avec le plan Internet de base ou du Régime Internet Premium, s'il vous plaît</value>
+  </data>
+  <data name="f2" xml:space="preserve">
+    <value>cliquez ici</value>
+  </data>
+  <data name="h1" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="h2" xml:space="preserve">
+    <value>Durée du séjour</value>
+  </data>
+  <data name="h3" xml:space="preserve">
+    <value>Montant total</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>Sélectionnez vos tarifaires/Fidélité</value>
+  </data>
+  <data name="m10" xml:space="preserve">
+    <value> vous acceptez </value>
+  </data>
+  <data name="m11" xml:space="preserve">
+    <value>Modalités</value>
+  </data>
+  <data name="m12" xml:space="preserve">
+    <value>Connectez-vous à internet</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>PREMIERE UTILISATION</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>Pour vous connecter à internet, veuillez sélectionner une option tarifaire ou naviguer dans les options de connexion suivantes</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>Options tarifaires/Fidélité</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>Charger ma chambre</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>Heures</value>
+  </data>
+  <data name="m9" xml:space="preserve">
+    <value>semaine</value>
+  </data>
+  <data name="p1" xml:space="preserve">
+    <value>Cher invité, veuillez sélectionner un forfait</value>
+  </data>
+  <data name="z1" xml:space="preserve">
+    <value>à bénéficier de services Internet</value>
+  </data>
+  <data name="z10" xml:space="preserve">
+    <value>Vous êtes nos précieux clients, et dans le cadre du service de privilège vous avez droit à profiter Premium gratuit à Internet.</value>
+  </data>
+  <data name="z2" xml:space="preserve">
+    <value>Internet gratuit</value>
+  </data>
+  <data name="z3" xml:space="preserve">
+    <value>Les services premium: jusqu'à</value>
+  </data>
+  <data name="z4" xml:space="preserve">
+    <value>Services standard: Jusqu'à</value>
+  </data>
+  <data name="z5" xml:space="preserve">
+    <value>Au-dessus de tous les plans de l'Internet sont des taxes</value>
+  </data>
+  <data name="z6" xml:space="preserve">
+    <value>Vous êtes nos précieux clients, et dans le cadre du service que vous avez le droit de profiter de notre Internet standard gratuit</value>
+  </data>
+  <data name="z7" xml:space="preserve">
+    <value>Quantité de plans</value>
+  </data>
+  <data name="z8" xml:space="preserve">
+    <value>Service Premium: Améliorer connexion Internet haute vitesse pour des activités telles que le streaming vidéo et multimédia conférence</value>
+  </data>
+  <data name="z9" xml:space="preserve">
+    <value>Norme de service: connexion Internet pour des activités telles que l'accès au courrier électronique et navigation Web de base</value>
+  </data>
+</root>

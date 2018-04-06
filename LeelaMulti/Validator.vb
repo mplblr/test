@@ -1,0 +1,23 @@
+﻿Public Class Validator
+    Public Shared Function ValidateEmail(ByVal email As String) As Boolean
+
+        email = email.Trim()
+        Dim objRegex As New Regex("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.((com)|(eu)|(net)|(org)|(info)|(biz)|(name)|(mobi)|(aero)|(asia)|(coop)|(cat)|(jobs)|(museum)|(aca\.pro)|(bar\.pro)|(cpa\.pro)|(eng\.pro)|(jur\.pro)|(law\.pro)|(med\.pro)|(travel)|(ac)|(ad)|(ae)|(af)|(com\.af)|(net\.af)|(org\.af)|(ag)|(co\.ag)|(com\.ag)|(net\.ag)|(nom\.ag)|(org\.ag)|(ai)|(com\.ai)|(net\.ai)|(off\.ai)|(org\.ai)|(al)|(am)|(an)|(com\.an)|(co\.ao)|(it\.ao)|(com\.ar)|(as)|(at)|(co\.at)|(or\.at)|(gv\.at)|(asn\.au)|(com\.au)|(net\.au)|(org\.au)|(aw)|(ba)|(bb)|(com\.bd)|(com\.aw)|(be)|(bg)|(bi)|(bj)|(bm)|(com\.bn)|(bo)|(com\.bo)|(net\.bo)|(org\.bo)|(com\.br)|(org\.br)|(bs)|(com\.bs)|(net\.bs)|(org\.bs)|(bt)|(by)|(bz)|(com\.bz)|(net\.bz)|(org\.bz)|(ca)|(cc)|(com\.cc)|(net\.cc)|(org\.cc)|(cd)|(cg)|(ch)|(co\.ck)|(org\.ck)|(cl)|(cm)|(co\.cm)|(com\.cm)|(net\.cm)|(cn)|(com\.cn)|(net\.cn)|(org\.cn)|(com\.co)|(net\.co)|(org\.co)|(cr)|(co\.cr)|(or\.cr)|(cu)|(com\.cu)|(cx)|(biz\.cy)|(com\.cy)|(ltd\.cy)|(name\.cy)|(org\.cy)|(tm\.cy)|(cz)|(de)|(dj)|(dk)|(dm)|(do)|(com\.do)|(net\.do)|(ec)|(com\.ec)|(fin\.ec)|(info\.ec)|(med\.ec)|(net\.ec)|(pro\.ec)|(ee)|(com\.eg)|(org\.do)|(es)|(com\.es)|(nom\.es)|(org\.es)|(biz\.et)|(com\.et)|(info\.et)|(name\.et)|(net\.et)|(org\.et)|(fi)|(biz\.fj)|(com\.fj)|(info\.fj)|(name\.fj)|(net\.fj)|(org\.fj)|(pro\.fj)|(fm)|(fo)|(fr)|(gd)|(com\.fr)|(gg)|(com\.om)|(co\.gg)|(net\.gg)|(org\.gg)|(gi)|(com\.gi)|(ltd\.gi)|(org\.gi)|(gl)|(co\.gl)|(com\.gl)|(net\.gl)|(org\.gl)|(gm)|(com\.gn)|(gp)|(com\.gp)|(gr)|(com\.gr)|(gs)|(com\.gt)|(net\.gt)|(org\.gt)|(ind\.gt)|(com\.gu)|(org\.gu)|(gy)|(co\.gy)|(com\.gy)|(net\.gy)|(hk)|(com\.hk)|(net\.hk)|(org\.hk)|(hm)|(hn)|(com\.hn)|(net\.hn)|(org\.hn)|(hr)|(com\.hr)|(ht)|(com\.ht)|(net\.ht)|(org\.ht)|(hu)|(co\.hu)|(co\.id)|(or\.id)|(web\.id)|(ie)|(co\.il)|(org\.il)|(im)|(co\.im)|(com\.im)|(net\.im)|(org\.im)|(in)|(co\.in)|(firm\.in)|(gen\.in)|(ind\.in)|(net\.in)|(org\.in)|(io)|(ir)|(co\.ir)|(is)|(it)|(je)|(co\.je)|(net\.je)|(org\.je)|(com\.jm)|(net\.jm)|(org\.jm)|(co\.ke)|(jo)|(kg)|(com\.kh)|(jp)|(ki)|(biz\.ki)|(co\.jp)|(com\.ki)|(info\.ki)|(mobi\.ki)|(net\.ki)|(org\.ki)|(phone\.ki)|(km)|(kn)|(kr)|(co\.kr)|(ne\.kr)|(or\.kr)|(com\.kw)|(ky)|(kz)|(la)|(com\.lb)|(lc)|(co\.lc)|(com\.lc)|(net\.lc)|(org\.lc)|(li)|(lk)|(com\.lr)|(lt)|(lu)|(lv)|(ly)|(ma)|(mc)|(md)|(me)|(mg)|(com\.mg)|(mk)|(com\.mk)|(mn)|(mp)|(mo)|(mr)|(ms)|(com\.mt)|(org\.mt)|(mu)|(ac\.mu)|(co\.mu)|(com\.mu)|(net\.mu)|(or\.mu)|(org\.mu)|(mw)|(com\.mx)|(net\.mx)|(org\.mx)|(my)|(com\.my)|(name\.my)|(net\.my)|(nc)|(org\.my)|(nf)|(com\.nf)|(firm\.nf)|(info\.nf)|(net\.nf)|(per\.nf)|(rec\.nf)|(web\.nf)|(com\.ng)|(com\.ni)|(net\.ni)|(nom\.ni)|(org\.ni)|(nl)|(no)|(com\.np)|(nr)|(com\.nr)|(nu)|(ac\.nz)|(co\.nz)|(gen\.nz)|(geek\.nz)|(net\.nz)|(ac\.pa)|(abo\.pa)|(com\.pa)|(ing\.pa)|(med\.pa)|(nom\.pa)|(org\.pa)|(sld\.pa)|(pe)|(org\.nz)|(com\.pe)|(com\.pg)|(ph)|(com\.ph)|(net\.ph)|(org\.ph)|(pk)|(com\.pk)|(net\.pk)|(pl)|(com\.pl)|(net\.pl)|(org\.pl)|(info\.pl)|(pn)|(pr)|(com\.pr)|(net\.pr)|(org\.pr)|(ps)|(com\.ps)|(net\.ps)|(org\.ps)|(pt)|(com\.pt)|(com\.py)|(ro)|(com\.ro)|(nom\.ro)|(www\.ro)|(rs)|(co\.rs)|(org\.rs)|(ru)|(com\.sa)|(rw)|(com\.sb)|(net\.sb)|(org\.sb)|(sc)|(com\.sc)|(net\.sc)|(org\.sc)|(sd)|(se)|(sg)|(com\.sg)|(net\.sg)|(org\.sg)|(per\.sg)|(sh)|(si)|(sk)|(sl)|(sm)|(sn)|(st)|(su)|(com\.sv)|(tc)|(co\.th)|(in\.th)|(tk)|(tl)|(net\.tl)|(com\.tl)|(org\.tl)|(tm)|(com\.tn)|(to)|(biz\.tr)|(com\.tr)|(gen\.tr)|(info\.tr)|(name\.tr)|(org\.tr)|(web\.tr)|(tt)|(biz\.tt)|(co\.tt)|(com\.tt)|(info\.tt)|(name\.tt)|(net\.tt)|(org\.tt)|(tv)|(tw)|(club\.tw)|(com\.tw)|(ebiz\.tw)|(game\.tw)|(idv\.tw)|(net\.tw)|(org\.tw)|(co\.tz)|(ua)|(com\.ua)|(ug)|(co\.uk)|(ltd\.uk)|(me\.uk)|(net\.uk)|(org\.uk)|(plc\.uk)|(us)|(com\.uy)|(vc)|(com\.vc)|(net\.vc)|(org\.vc)|(co\.ve)|(com\.ve)|(org\.ve)|(vg)|(co\.vi)|(com\.vi)|(net\.vi)|(org\.vi)|(vn)|(ac\.vn)|(com\.vn)|(info\.vn)|(int\.vn)|(net\.vn)|(name\.vn)|(org\.vn)|(pro\.vn)|(vu)|(ws)|(co\.za)|(nom\.za)|(org\.za)|(co\.zw))$")
+        Dim valid As Boolean = False
+        valid = objRegex.IsMatch(email)
+        Return valid
+
+    End Function
+
+    Public Shared Function ValidateName(ByVal name As String) As Boolean
+
+        name = name.Trim()
+        'Dim objRegex As New Regex("^[a-zA-Z\s]+[a-zA-Z'\.\s]*$")
+        Dim objRegex As New Regex("^[a-zA-Z\s]+[a-zA-Z'_@&,\-\(\)\.\s]*$")
+        Dim valid As Boolean = False
+        valid = objRegex.IsMatch(name)
+        Return valid
+
+    End Function
+
+End Class

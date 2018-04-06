@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/image/index_german.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/connect_btn_german.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/Korean/website_btn_korean.png</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>Herzlich Willkommen</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>Genießen Sie High-Speed-Internet-Zugang von jedem Ort</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>Nutzungsbedingungen</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>Ihre Nutzung des Dienstes beginnt mit dem Klicken auf "Verbinden" und endet mit dem früheren: (a) Entfernen des Kabels von Ihrem Computer; oder (b) Ihr Computer wird ausgeschaltet.
+
+Der Service kann Inhalte enthalten, die sich im Besitz von uns oder unseren verbundenen Unternehmen, Mitarbeitern, leitenden Angestellten, Lizenzgebern, Partnern, Lieferanten, Beratern, Vertretern und Unterauftragnehmern (zusammen "unsere Mitarbeiter") befinden und / oder von Dritten kontrolliert werden an uns oder unsere Mitarbeiter lizenziert (zusammen der "Inhalt").
+
+Wenn Sie den Service nutzen, müssen Sie sicherstellen, dass Sie:</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>(a) nicht versuchen und nicht versuchen, die Rechte, einschließlich der Rechte an geistigem Eigentum, einer Person zu verletzen;
+
+(b) den Service in Übereinstimmung mit allen anwendbaren Gesetzen, Vorschriften und / oder Codes / Richtlinien eines relevanten Landes nutzen;
+
+(c) nichts tun oder versuchen, was andere Netzwerkbenutzer, -dienste oder -geräte stören oder stören würde;
+
+(d) nicht versuchen oder versuchen, den Dienst zu nutzen, um Leute zu gewinnen, um Abonnenten konkurrierender Dienste zu werden oder um unsere Dienste weiterzuverkaufen oder zu versuchen, sie weiterzuverkaufen; und
+
+(e) Sie erfüllen alle Anforderungen des Eigentümers der Räumlichkeiten, in denen Sie auf den Service zugreifen.</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value> 
+
+
+
+
+
+
+
+Eigentumsrechte
+Wir und / oder unsere Mitarbeiter besitzen und behalten alle Rechte am Service und / oder Inhalt, einschließlich (ohne Einschränkung) jeglicher Werbung, die auf dem Service-Portal veröffentlicht werden kann, das urheberrechtlich geschützte und vertrauliche Informationen enthält, die durch Urheberrechte und Marken geschützt sind Dienstleistungsmarken, Patente oder andere Rechte des geistigen Eigentums und andere Gesetze. Sie sind nicht berechtigt, urheberrechtlich geschützte Informationen ganz oder teilweise zu kopieren, zu ändern, zu veröffentlichen, zu übertragen, zu verteilen, aufzuführen, auszustellen, zu verkaufen oder abgeleitete Werke auf der Grundlage von unternehmensinternen Informationen zu erstellen.
+
+Kekse
+Wir und / oder unsere Mitarbeiter dürfen Internet-Cookies auf den Festplatten Ihres Computers platzieren. Internet-Cookies speichern bestimmte Informationen über Ihre Nutzung des Internets, einschließlich Websites und Anzeigen, die von Ihnen angesehen werden. Wenn Sie den Service erneut besuchen, können wir und / oder unsere Mitarbeiter Sie möglicherweise durch das Internet-Cookie erkennen und Ihre Erfahrung entsprechend anpassen. Sie können den Internet-Cookie ablehnen, indem Sie die entsprechende Funktion Ihrer Web-Client-Software verwenden, sofern verfügbar.
+
+Datenschutz und Zustimmung zur Übertragung von Daten
+Um Sie mit dem Service zu versorgen, müssen wir und / oder unsere Mitarbeiter möglicherweise Informationen sammeln, die Sie identifizieren können ("persönliche Informationen"). Diese persönlichen Informationen werden gesammelt für (a) Systemleistung und Sicherheitszwecke; (b) redaktionelle und Feedback-Zwecke und für andere Marketing-und Werbezwecke; (c) das Verhalten von Benutzern zu analysieren, wenn sie den Dienst nutzen; (d) für die Produktentwicklung und die Verbesserung der Inhalte; (e) den Inhalt und das Layout unserer Website und unseres Service anzupassen; und / oder (f) gemäß den geltenden Gesetzen und Vorschriften. Darüber hinaus können wir und / oder unsere Mitarbeiter auch personenbezogene Daten erfassen, die Sie im Rahmen unseres freiwilligen Registrierungssystems freiwillig melden.
+
+Sie erklären sich ausdrücklich damit einverstanden, dass wir und / oder unser Personal persönliche Daten an Dritte weitergeben, an die wir und / oder unser Personal begrenzte und spezialisierte Funktionen vergeben (z. B. Versandhäuser). Wenn wir und / oder unsere Mitarbeiter dies tun, geben wir und / oder unsere Mitarbeiter jedoch nur personenbezogene Daten an, die der jeweilige Auftragnehmer benötigt, um den Service für uns und / oder unsere Mitarbeiter erbringen zu können. Wir und / oder unsere Mitarbeiter ergreifen angemessene Maßnahmen, um sicherzustellen, dass unsere Vertragspartner personenbezogene Daten gemäß dieser Datenschutzrichtlinie behandeln und personenbezogene Daten nur für die Bereitstellung von Dienstleistungen an uns und / oder unsere Mitarbeiter verwenden oder offenlegen .
+
+Sie erklären sich ausdrücklich damit einverstanden, dass wir und / oder unsere Mitarbeiter von Zeit zu Zeit mit anderen Parteien zusammenarbeiten, um bestimmte Dienstleistungen zu erbringen. Wenn ein Benutzer anfordert, diese Dienste von Drittanbietern zu erhalten, teilen wir alle Kontaktinformationen mit, die für diese Drittanbieter erforderlich sind, um diese Dienste dem entsprechenden Benutzer zur Verfügung zu stellen. Wir und / oder unsere Mitarbeiter werden nur Informationen offen legen, die von den Nutzern wissentlich und freiwillig offen gelegt werden. Diese Dritten dürfen keine personenbezogenen Daten verwenden, außer zum Zweck der Bereitstellung dieser Dienste. Manchmal teilen wir und / oder unsere Mitarbeiter auch aggregierte demografische Informationen mit unseren Partnern und Werbetreibenden. Diese Informationen identifizieren jedoch niemanden. Diese Dritten dürfen keine personenbezogenen Daten verwenden, außer zum Zweck der Bereitstellung dieser Dienste. Manchmal teilen wir und / oder unsere Mitarbeiter auch aggregierte demografische Informationen mit unseren Partnern und Werbetreibenden. Diese Informationen führen jedoch nicht zur Identifizierung eines einzelnen Wesens.
+
+Aus den oben genannten Gründen müssen Sie der Übermittlung personenbezogener Daten über Sie aus dem Land zustimmen, in dem Sie mit dem Service versorgt werden. Insbesondere beachten Sie bitte, dass persönliche Daten in einigen Fällen in andere Länder übertragen werden können. Ihre Zustimmung ist eine Voraussetzung, damit wir Sie mit dem Service versorgen können. Wenn Sie der Übertragung personenbezogener Daten nicht zustimmen, klicken Sie nicht auf "Verbinden".
+
+Ohne die Allgemeingültigkeit des Vorstehenden einzuschränken, erkennen Sie an, stimmen zu und stimmen zu, dass wir und / oder unser Personal von Ihnen erfasste Informationen offenlegen können, wenn dies gesetzlich vorgeschrieben ist oder in gutem Glauben, dass ein solcher Zugriff, eine solche Speicherung oder Offenlegung erforderlich ist vernünftigerweise erforderlich, um: (a) gesetzliche Verfahren oder Vorschriften einzuhalten; (b) Durchsetzung der Nutzungsbedingungen; (c) schützen und verteidigen die Rechte oder das Eigentum von uns und / oder unserem Personal (einschließlich der Durchsetzung unserer Vereinbarungen); (d) auf Ihre Anfragen nach Kundendienst antworten; oder (e) die Rechte, das Eigentum oder die persönliche Sicherheit unserer Mitarbeiter und / oder unserer Mitarbeiter sowie die unserer Benutzer und der Öffentlichkeit schützen.
+
+Speicherung von Daten und persönlichen Informationen
+Wir und / oder unsere Mitarbeiter können Ihre persönlichen Daten und andere Daten speichern, einschließlich, aber nicht beschränkt auf die URLs, die Sie besuchen, sowie die Dauer und das Timing Ihrer Internetaktivitäten. Wir und / oder unsere Mitarbeiter können solche Informationen so lange speichern, wie wir es für angemessen halten und / oder einer App entsprechen</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>Gewährleistungsausschluss
+Wir und unsere Mitarbeiter übernehmen keinerlei Verantwortung oder Haftung für die Richtigkeit, Vollständigkeit, Rechtmäßigkeit, Zuverlässigkeit, Funktionsfähigkeit oder Verfügbarkeit von Informationen oder Inhalten, die auf dem Service angezeigt werden. Wir und unser Personal übernehmen keinerlei Verantwortung und Haftung für Ihr Verhalten und für das Verhalten anderer, die den Service nutzen.
+
+SIE VERSTEHEN AUSDRÜCKLICH UND STIMMEN ZU:
+
+(a) DIE NUTZUNG DES DIENSTES ERFOLGT AUF IHR EIGENES RISIKO. DER SERVICE UND ALLE INHALTE, INFORMATIONEN (EINSCHLIESSLICH, OHNE BESCHRÄNKUNGEN, INFORMATIONEN ODER INHALTE, DIE DURCH DEN DIENST ERHALTEN ODER ZUGÄNGLICH SIND), PRODUKTE UND DIENSTLEISTUNGEN, DIE DARIN ENTHALTEN SIND, WERDEN "OHNE MÄNGELGEWÄHR" UND OHNE JEGLICHE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT. WIR UND DIE GESELLSCHAFTEN DER GESELLSCHAFT SCHLIESSEN AUSDRÜCKLICH DEN GESETZLICH ZULÄSSIGEN UMFANG AUS, DER AUSDRÜCKLICH, STILLSCHWEIGEND UND GESETZLICH GEWÄHRLEISTET IST, EINSCHLIESSLICH DER GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON EIGENTUMSRECHTEN
+
+(b) WIR UND UNSER PERSONAL LEHNT JEGLICHE GEWÄHRLEISTUNG HINSICHTLICH DER SICHERHEIT, ZUVERLÄSSIGKEIT, AKTUALITÄT UND LEISTUNG DES DIENSTES AB. INSBESONDERE ÜBERNEHMEN WIR UND DIE UNTERNEHMEN DER GESELLSCHAFT KEINE GEWÄHRLEISTUNG, DASS (i) DER DIENST IHREN ANFORDERUNGEN ENTSPRICHT; (ii) Der Dienst wird ununterbrochen, zeitnah, sicher oder fehlerfrei sein; (iii) DIE ERGEBNISSE, DIE DURCH DIE NUTZUNG DES DIENSTES ERZIELT WERDEN KÖNNEN, SIND GENAU ODER ZUVERLÄSSIG; UND (iv) DIE QUALITÄT VON PRODUKTEN, DIENSTLEISTUNGEN, INFORMATIONEN ODER ANDEREN MATERIALIEN, DIE SIE DURCH DEN SERVICE ERWORBEN ODER ERHALTEN HABEN, ERFÜLLT IHRE ERWARTUNGEN
+
+(c) WIR UND UNSER PERSONAL LEHNEN JEGLICHE GARANTIEN FÜR INFORMATIONEN ODER RATSCHLÄGE, DIE DURCH DEN DIENST ERHALTEN WURDEN;
+
+(d) WIR UND UNSER PERSONAL LEHNEN JEGLICHE GEWÄHRLEISTUNG FÜR DIENSTLEISTUNGEN ODER WAREN, DIE ÜBER DEN DIENST ERHALTEN WERDEN ODER ÜBER DIE DURCH DEN DIENST BEREITGESTELLTEN LINKS ERHALTEN WERDEN, SOWIE FÜR INFORMATIONEN ODER RATSCHLÄGE, DIE ÜBER DIE IM SERVICE BEREITGESTELLTEN LINKS ERHALTEN WERDEN;
+
+(e) SIE HERUNTERLADEN ODER ANDERWEITIG INFORMATIONEN ODER DATEN DURCH DIE NUTZUNG DES DIENSTES AUF IHREM EIGENEN ERMESSENSDURCHSCHNITT UND IHREM RISIKO ERWORBEN HABEN UND DASS SIE AUSSCHLIESSLICH FÜR SCHÄDEN AN IHREM COMPUTERSYSTEM ODER FÜR DATENVERLUSTE VERANTWORTLICH SIND, DIE SICH AUS DEM HERUNTERLADEN SOLCHER INFORMATIONEN ERGEBEN DATEN.
+
+Haftungsbeschränkung
+UNTER KEINEN UMSTÄNDEN HAFTEN WIR UND / ODER UNSERE MITARBEITER FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, FOLGESCHÄDEN, SPEZIELLE ODER BEISPIELHAFTE SCHÄDEN, DIE SICH AUS ODER IN VERBINDUNG MIT DER NUTZUNG DES DIENSTES ERGEBEN, AUCH OB UNS UND / ODER UNSER PERSONAL NICHT HABEN AUF DIE MÖGLICHKEIT SOLCHER SCHÄDEN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF SCHADENERSATZANSPRÜCHE FÜR GEWINNE, GEWINN, GEBRAUCH, DATEN ODER ANDERE IMMATERIELLE VERLUSTE, BEREITGESTELLT WORDEN SIND: (i) DIE NUTZUNG ODER DIE NICHTVERWENDBARKEIT DES DIENSTES; (ii) die Kosten für die Beschaffung von Ersatzwaren und Dienstleistungen, die aus Waren, Daten, Informationen oder Dienstleistungen stammen, die gekauft oder erworben wurden, oder Transaktionen, die durch oder aus dem Dienst entstanden sind; (iii) Erklärungen oder Verhaltensweisen Dritter bei der Dienstleistung; (iv) jegliches Vertrauen in den Service; (v) UNTERBRECHUNG, AUSSETZUNG ODER KÜNDIGUNG DES DIENSTES (EINSCHLIESSLICH SOLCHER SCHÄDEN DURCH DRITTE); ODER (vi) JEGLICHEN ANDEREN, DER SICH AUF DEN DIENST BEZIEHT.
+
+JEDERFALL SIND WIR UND / ODER UNSER PERSONAL UNTER KEINEN UMSTÄNDEN FÜR SIE ÜBER 100,00 US $ VERANTWORTLICH.
+
+OHNE BESCHRÄNKUNGEN DER ALLGEMEINEN VORAUSSETZUNGEN KÖNNEN WIR UND / ODER UNSER PERSONAL UNTER KEINEN UMSTÄNDEN HAFTBAR FÜR VERZÖGERUNGEN ODER AUSFÄLLE IN DER LEISTUNG, DIE DIREKT ODER INDIREKT DURCH NATÜRLICHE HANDLUNGEN, KRÄFTE ODER URSACHEN AUSSERHALB UNSERER VERANTWORTLICHEN KONTROLLE ENTHALTEN SIND, EINSCHLIESSLICH OHNE BESCHRÄNKUNGEN, INTERNET-FEHLER, AUSRÜSTUNGEN VON COMPUTERAUSRÜSTUNGEN, FEHLER VON TELEKOMMUNIKATIONSGERÄTEN, ANDERE AUSRÜSTUNGEN VON GERÄTEN, ELEKTRISCHE STROMAUSFÄLLE, SCHLÄGE, ARBEITSSTREITIGKEITEN, RIOS, VERSICHERUNGEN, ZIVILSTÖRUNGEN, ARBEITS- ODER MATERIALSCHLÜSSEL, FEUER, ÜBERSCHWEMMUNGEN, STÖRUNGEN, EXPLOSIONEN, HANDLUNGEN GOTTES KRIEG, REGIERUNGSMASSNAHMEN, AUFTRÄGE VON AUSSEN- ODER AUSSENGERICHTEN, AUSSERHALB VON DRITTEN ODER VERLUSTE ODER FLUKTUATIONEN IN WÄRME-, LICHT- ODER KLIMAANLAGE.
+
+Entschädigung
+Sie verpflichten sich, das Unternehmen und unsere Mitarbeiter von allen Ansprüchen Dritter freizustellen, die sich aus oder im Zusammenhang mit Ihrer Nutzung des Service und / oder des Inhalts ergeben, einschließlich jeglicher Haftung oder Kosten, die sich aus allen Ansprüchen, Verlusten, Schäden ergeben ( tatsächlich und konsequent), Klagen, Urteile, Prozesskosten und Anwaltskosten jeder Art und Art.
+
+Beiträge an uns
+Durch die Übermittlung persönlicher Informationen, Ideen, Vorschläge, Dokumente und / oder Vorschläge ("Beiträge") an uns über unsere Vorschlags-, Umfrage- oder Feedback-Portale bestätigen Sie und stimmen zu, dass: (a) Ihre Beiträge keine vertraulichen oder geschützten Informationen enthalten; (b) Wir und / oder unsere Mitarbeiter sind in Bezug auf die Beiträge nicht zur Vertraulichkeit, weder ausdrücklich noch impliziert, verpflichtet; (c) Wir sind berechtigt, solche Beiträge zu irgendeinem Zweck in irgendeiner Weise zu verwenden oder offenzulegen (oder zu wählen, sie nicht zu verwenden oder offenzulegen)</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>Sonstiges
+Diese Nutzungsbedingungen unterliegen den Gesetzen des Landes, in dem Sie den Dienst erhalten, und werden entsprechend ausgelegt. Sie stimmen zu, sich der nicht ausschließlichen Zuständigkeit der Gerichte in der oben genannten Gerichtsbarkeit zu unterwerfen.
+
+Sollte ein zuständiges Gericht aus irgendeinem Grund feststellen, dass eine Bestimmung oder ein Teil der Nutzungsbedingungen nicht durchsetzbar ist, bleiben die übrigen Nutzungsbedingungen in vollem Umfang in Kraft und wirksam.
+
+Sie dürfen diese Nutzungsbedingungen weder ganz noch teilweise ohne vorherige schriftliche Zustimmung des Unternehmens abtreten oder Rechte übertragen oder Pflichten aus diesem Vertrag ganz oder teilweise delegieren, sei es freiwillig oder kraft Gesetzes. Eine solche behauptete Übertragung oder Übertragung ist null und nichtig und hat keine Wirkung oder Wirkung.
+
+Diese Nutzungsbedingungen stellen die gesamte Vereinbarung zwischen dem Unternehmen, unseren Mitarbeitern und Ihnen in Bezug auf den Vertragsgegenstand dar und ersetzen alle vorherigen oder gleichzeitigen schriftlichen oder mündlichen Vereinbarungen oder Vereinbarungen in Bezug auf diesen Vertragsgegenstand. Sie können auch zusätzlichen Bedingungen unterliegen, die möglicherweise gelten, wenn Sie bestimmte Teile des Dienstes oder verbundene Dienste oder Inhalte von Drittanbietern verwenden.
+
+Ein Verzicht auf eine Bestimmung der Nutzungsbedingungen durch eine Partei ist nur wirksam, wenn sie schriftlich und von uns und einer solchen Partei unterzeichnet ist. Das Versäumnis des Unternehmens und / oder unserer Mitarbeiter, ein Recht oder eine Bestimmung dieser Bedingungen auszuüben oder durchzusetzen, stellt keinen Verzicht auf dieses Recht oder diese Bestimmung dar.
+
+Sie stimmen zu, dass, sofern in diesen Nutzungsbedingungen nicht ausdrücklich anders angegeben, keine Drittbegünstigten zu dieser Vereinbarung berechtigt sind.
+
+Sie erklären sich ausdrücklich damit einverstanden, dass jegliche Ansprüche oder Klagegründe, die sich aus oder im Zusammenhang mit der Nutzung des Service oder der Nutzungsbedingungen ergeben, ungeachtet eines Gesetzes oder Gesetzes innerhalb eines (1) Jahres nach diesem Anspruch oder Grund geltend gemacht werden müssen Aktion entstand oder für immer gesperrt werden.</value>
+  </data>
+</root>

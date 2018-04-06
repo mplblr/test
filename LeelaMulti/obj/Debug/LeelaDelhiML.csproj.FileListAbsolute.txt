@@ -1,0 +1,13 @@
+G:\chennai_project\LEELA_PALACE\LeelaDelhiML\LeelaDelhiML\bin\LeelaDelhiML.dll
+G:\chennai_project\LEELA_PALACE\LeelaDelhiML\LeelaDelhiML\bin\LeelaDelhiML.pdb
+G:\chennai_project\LEELA_PALACE\LeelaDelhiML\LeelaDelhiML\obj\Debug\ResolveAssemblyReference.cache
+G:\chennai_project\LEELA_PALACE\LeelaDelhiML\LeelaDelhiML\obj\Debug\LeelaDelhiML.dll
+G:\chennai_project\LEELA_PALACE\LeelaDelhiML\LeelaDelhiML\obj\Debug\LeelaDelhiML.pdb
+D:\LeelaDelhiML\LeelaDelhiML\obj\Debug\ResolveAssemblyReference.cache
+D:\LeelaDelhiML\LeelaDelhiML\obj\Debug\LeelaDelhiML.dll
+D:\LeelaDelhiML\LeelaDelhiML\bin\LeelaDelhiML.dll
+D:\LeelaDelhiML\LeelaDelhiML\bin\LeelaDelhiML.pdb
+D:\LeelaDelhiML\LeelaDelhiML\obj\Debug\LeelaDelhiML.pdb
+D:\LeelaDelhiML\LeelaDelhiML\bin\Interop.MSXML2.dll
+D:\LeelaDelhiML\LeelaDelhiML\bin\Interop.MSXML.dll
+D:\LeelaDelhiML\LeelaDelhiML\bin\FidelioSMSV2Result.dll

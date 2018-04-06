@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/images/french/connect_btn_french.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/french/connect_btn.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/french/website_btn_french.png</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>Profitez d'un accès internet haut débit depuis l'endroit où vous vous trouvez</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>Conditions d'utilisation</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>Votre utilisation du Service commence lorsque vous cliquez sur "Connecter" et se termine le plus tôt de: (a) le retrait du câble de votre ordinateur; ou, (b) votre ordinateur est éteint.
+
+Le Service peut inclure le contenu détenu et / ou contrôlé par nous ou nos affiliés, employés, dirigeants, concédants, partenaires, fournisseurs, consultants, agents et sous-traitants (collectivement "Notre Personnel") ainsi que le contenu détenu ou contrôlé par des tiers et sous licence à nous ou notre personnel (collectivement, le «contenu»).
+
+Lorsque vous utilisez le service, vous devez vous assurer que:</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>(a) n'essaient pas et ne tentent pas de porter atteinte aux droits, y compris les droits de propriété intellectuelle, de toute personne;
+
+(b) utiliser le Service conformément à toutes les lois, réglementations et / ou codes / directives applicables de tout pays concerné;
+
+(c) ne pas faire ou tenter de faire quoi que ce soit qui pourrait perturber ou interférer avec d'autres utilisateurs, services ou équipements du réseau;
+
+(d) ne pas faire ou tenter d'utiliser le Service pour solliciter des personnes à devenir des abonnés de services concurrents ou à revendre ou tenter de revendre nos services; et
+
+(e) respecter toutes les exigences du propriétaire des lieux dans lesquels vous accédez au Service.</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>Droits de propriété
+Nous, et / ou notre Personnel, possédons et conservons tous les droits sur le Service et / ou le Contenu, y compris (sans limitation) les publicités qui peuvent être affichées sur le Portail de Service, qui contient des informations exclusives protégées par des droits d'auteur. , marques de service, brevets ou autres droits de propriété intellectuelle et autres lois. Vous ne pouvez pas copier, modifier, publier, transmettre, distribuer, exécuter, afficher, vendre ou créer des œuvres dérivées basées sur des informations exclusives de la Société ou de notre personnel, que ce soit en totalité ou en partie.
+
+Biscuits
+Nous et / ou Notre Personnel peut placer des cookies Internet sur les disques durs de votre ordinateur. Les cookies Internet sauvegardent certaines informations concernant votre utilisation d'Internet, y compris les sites Web et les publicités que vous avez consultés. Lorsque vous revisitez le service, nous et / ou notre personnel peuvent vous reconnaître par le cookie Internet et personnaliser votre expérience en conséquence. Vous pouvez refuser le cookie Internet en utilisant la fonctionnalité appropriée de votre logiciel client Web, si disponible.
+
+Politique de confidentialité et consentement au transfert de données
+Afin de vous fournir le service, nous et / ou notre personnel peut avoir besoin de collecter des informations susceptibles de vous identifier («Informations personnelles»). Ces informations personnelles sont collectées pour (a) les performances du système et les objectifs de sécurité; (b) des fins éditoriales et de rétroaction et à d'autres fins de marketing et de promotion; (c) analyser le comportement des utilisateurs lorsqu'ils utilisent le Service; (d) pour le développement de produits et l'amélioration du contenu; (e) personnaliser le contenu et la mise en page de notre site Web et de notre service; et / ou (f) conformément aux lois et règlements applicables. En outre, nous et / ou notre personnel peut également recueillir des renseignements personnels que vous faites du bénévolat dans le cadre de notre système d'inscription volontaire.
+
+Vous acceptez expressément que nous et / ou notre personnel divulguons des informations personnelles à des contractants tiers auxquels nous et / ou notre personnel sous-traitons des fonctions limitées et spécialisées (par ex. Toutefois, si nous et / ou notre personnel le faisons, nous et / ou notre personnel ne divulguons que les renseignements personnels dont l'entrepreneur a besoin pour fournir le service à nous et / ou à notre personnel. De plus, nous et / ou notre personnel prenons des mesures raisonnables pour s'assurer que nos contractants traitent les renseignements personnels conformément à cette politique de confidentialité et n'utilisent ou ne divulguons pas les renseignements personnels à d'autres fins que la prestation de services à nous et / ou notre personnel. .
+
+Vous acceptez expressément de reconnaître et d'accepter que nous et / ou notre personnel puisse collaborer de temps en temps avec d'autres parties pour fournir des services spécifiques. Lorsqu'un utilisateur demande à recevoir ces services de tiers, nous partageons toutes les informations de contact nécessaires à ces tiers pour fournir ces services à l'utilisateur concerné. Nous et / ou Notre Personnel ne divulguerons que des informations divulguées volontairement et volontairement par les utilisateurs. Ces tiers ne sont pas autorisés à utiliser des renseignements personnels, sauf dans le but de fournir ces services. Parfois, nous et / ou notre personnel peuvent également partager des informations démographiques agrégées avec nos partenaires et annonceurs, mais ces informations ne permettent d'identifier aucune personne. Ces tiers ne sont pas autorisés à utiliser des renseignements personnels, sauf dans le but de fournir ces services. Parfois, nous et / ou notre personnel peuvent également partager des informations démographiques agrégées avec nos partenaires et annonceurs, mais ces informations ne permettront pas d'identifier un être individuel.
+
+Pour les raisons susmentionnées, nous avons besoin que vous consentiez au transfert de renseignements personnels vous concernant du pays dans lequel vous avez reçu le service. En particulier, veuillez noter que les informations personnelles peuvent dans certains cas être transmises à d'autres pays. Votre consentement est une condition pour que nous puissions vous fournir le service. Si vous ne consentez pas au transfert des informations personnelles, ne cliquez pas sur "Connect".
+
+Sans limiter la généralité de ce qui précède, Vous reconnaissez, consentez et acceptez que Nous et / ou Notre Personnel peut divulguer toute information recueillie auprès de vous, si cela est requis par la loi ou de bonne foi que cet accès, cette préservation ou cette divulgation est raisonnablement nécessaire pour: (a) se conformer à la procédure ou à la réglementation légale; (b) appliquer les conditions d'utilisation; (c) protéger et défendre les droits ou la propriété de nous et / ou de notre personnel (y compris l'application de nos accords); (d) répondre à vos demandes de service à la clientèle; ou (e) protéger nos droits, nos biens ou notre sécurité personnelle, ainsi que ceux de nos utilisateurs et du public.
+
+Stockage de données et de renseignements personnels
+Nous et / ou Notre personnel peuvent stocker vos informations personnelles et d'autres données, y compris, mais sans s'y limiter, les URL que vous visitez et la durée et le calendrier de votre activité sur Internet. Nous et / ou Notre Personnel peuvent stocker ces informations aussi longtemps que nous le jugeons approprié et / ou nous conformer à toute application</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>Exclusion de garantie
+Nous et notre personnel déclinons toute responsabilité quant à l'exactitude, l'intégralité, la légalité, la fiabilité, l'opérabilité ou la disponibilité des informations ou du contenu affiché sur le Service. Nous et notre personnel déclinons toute responsabilité quant à votre conduite et à la conduite des autres utilisateurs du service.
+
+VOUS COMPRENEZ ET ACCEPTEZ EXPRESSÉMENT QUE:
+
+(a) VOTRE UTILISATION DU SERVICE EST À VOS PROPRES RISQUES. LE SERVICE, ET TOUT LE CONTENU, LES INFORMATIONS (Y COMPRIS, SANS S'Y LIMITER, LES INFORMATIONS OU LES CONTENUS OBTENUS OU ACCESSIBLES PAR LE SERVICE), LES PRODUITS ET SERVICES INCLUS DANS CE SERVICE SONT FOURNIS "TELS QUELS" ET "TELS QUE DISPONIBLES" SANS AUCUNE GARANTIE. NOUS ET LES ENTITES DES SOCIÉTÉS DÉCLINENT EXPRESSÉMENT DANS TOUTE LA MESURE AUTORISÉE PAR LA LOI TOUTE GARANTIE EXPRESSE, IMPLICITE ET LÉGALE, Y COMPRIS, SANS LIMITATION, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET DE NON-VIOLATION DES DROITS DE PROPRIÉTÉ.
+
+(b) NOUS ET NOTRE PERSONNEL DÉCLINONS TOUTE GARANTIE CONCERNANT LA SÉCURITÉ, LA FIABILITÉ, L'OPPORTUNITÉ ET LA PERFORMANCE DU SERVICE. EN PARTICULIER, NOUS ET LES ENTITÉS DES SOCIÉTÉS NE DONNONS AUCUNE GARANTIE QUE (i) LE SERVICE RÉPONDRA À VOS EXIGENCES; (ii) LE SERVICE SERA ININTERROMPU, OPPORTUN, SECURISE OU EXEMPT D'ERREURS; (iii) LES RÉSULTATS QUI PEUVENT ÊTRE OBTENUS DE L'UTILISATION DU SERVICE SERONT EXACTS OU FIABLES; ET (iv) LA QUALITÉ DE TOUT PRODUIT, SERVICE, INFORMATION OU AUTRE MATÉRIEL ACHETÉ OU OBTENU PAR VOUS PAR LE BIAIS DU SERVICE RÉPONDRA À VOS ATTENTES
+
+(c) NOUS ET NOTRE RESPONSABILITÉ DU PERSONNEL, TOUTE GARANTIE POUR TOUTE INFORMATION OU CONSEIL OBTENU PAR LE BIAIS DU SERVICE;
+
+(d) NOUS ET NOTRE PERSONNEL DÉCLINONS TOUTE GARANTIE CONCERNANT LES SERVICES OU MARCHANDISES REÇUS OU PUBLIÉS SUR LE SERVICE OU REÇUS PAR L'INTERMÉDIAIRE DE TOUT LIEN FOURNI PAR LE SERVICE, AINSI QUE TOUTE INFORMATION OU CONSEIL REÇUS PAR L'INTERMÉDIAIRE DE TOUT LIEN FOURNI DANS LE SERVICE;
+
+(e) VOUS TÉLÉCHARGEZ OU OBTENEZ AUTREMENT DES INFORMATIONS OU DES DONNÉES PAR L'UTILISATION DU SERVICE À VOTRE DISCRÉTION ET À VOS PROPRES RISQUES ET VOUS SEREZ SEUL RESPONSABLE DE TOUT DOMMAGE À VOTRE SYSTÈME INFORMATIQUE OU DE TOUTE PERTE DE DONNÉES RÉSULTANT DU TÉLÉCHARGEMENT DE CES INFORMATIONS OU LES DONNÉES.
+
+Limitation de responsabilité
+EN AUCUN CAS NOUS ET / OU NOTRE PERSONNEL NE POURRONT ÊTRE TENUS RESPONSABLES ENVERS VOUS DE TOUT DOMMAGE DIRECT, INDIRECT, ACCESSOIRE, CONSÉCUTIF, SPÉCIAL OU EXEMPLAIRE DÉCOULANT DE OU EN RAPPORT AVEC L'UTILISATION DU SERVICE, QUE NOUS ET / OU NOTRE PERSONNEL AVONS OU NON AVISÉ DE LA POSSIBILITÉ DE TELS DOMMAGES, Y COMPRIS, MAIS SANS S'Y LIMITER, LES DOMMAGES POUR PERTE DE PROFITS, GOODWILL, UTILISATION, DONNÉES OU AUTRES PERTES INCORPORELLES, RÉSULTANT: (i) DE L'UTILISATION OU DE L'INCAPACITÉ D'UTILISER LE SERVICE; (ii) LE COÛT DE L'APPROVISIONNEMENT DE BIENS ET SERVICES DE SUBSTITUTION RÉSULTANT DE TOUT BIEN, DONNÉE, INFORMATION OU SERVICE ACHETÉ OU OBTENU OU DE TRANSACTIONS CONCLUES PAR LE BIAIS DU SERVICE; (iii) LES DÉCLARATIONS OU LA CONDUITE DE TOUT TIERS SUR LE SERVICE; (iv) TOUTE CONFIANCE AU SERVICE; (v) L'INTERRUPTION, LA SUSPENSION OU LA CESSATION DU SERVICE (Y COMPRIS LESDITS DOMMAGES CAUSES PAR DES TIERS); OU (vi) TOUTE AUTRE QUESTION RELATIVE AU SERVICE.
+
+DANS TOUS LES CAS, EN AUCUN CAS NOUS ET / OU NOTRE PERSONNEL NE SERA RESPONSABLE ENVERS VOUS POUR UN MONTANT DE PLUS DE 100,00 $.
+
+SANS LIMITATION DE LA GÉNÉRALITÉ DE CE QUI PRÉCÈDE, EN AUCUN CAS NOUS ET / OU NOTRE PERSONNEL NE POURRA ÊTRE TENU RESPONSABLE DE TOUT RETARD OU DÉFAUT DE RENDEMENT RÉSULTANT DIRECTEMENT OU INDIRECTEMENT D'ACTES DE NATURE, DE FORCES OU DE CAUSES AU-DELÀ DE NOTRE CONTRÔLE RAISONNABLE, Y COMPRIS LIMITATION, DÉFAILLANCE INTERNET, ÉCHEC MATÉRIEL INFORMATIQUE, DÉFAILLANCE D'ÉQUIPEMENT DE TÉLÉCOMMUNICATION, AUTRE DÉFAILLANCE D'ÉQUIPEMENT, DÉFAILLANCE ÉLECTRIQUE, GRÈVE, LITIGE DE TRAVAIL, RIOTS, INSURRECTIONS, PERTURBATIONS CIVILES, PÉNURIES DE MAIN-D'OEUVRE OU DE MATÉRIEL, INCENDIES, INONDATIONS, TEMPÊTES, EXPLOSION, ACTES DE DIEU GUERRE, ACTIONS GOUVERNEMENTALES, ORDRES DE TRIBUNAUX OU TRIBUNAUX DOMESTIQUES OU ÉTRANGERS, NON-EXÉCUTION DE TIERCES PARTIES OU PERTE OU FLUCTUATIONS DE CHALEUR, DE LUMIÈRE OU DE CLIMATISATION.
+
+Indemnité
+Vous acceptez de dégager et d'indemniser la Société et notre personnel contre toute réclamation de tiers découlant de ou liée à votre utilisation du Service et / ou du Contenu, y compris toute responsabilité ou dépense découlant de toutes réclamations, pertes, dommages ( réels et indirects), les poursuites, les jugements, les frais de litige et les honoraires d'avocats, de toute nature et de toute nature.
+
+Contributions à nous
+En nous soumettant des informations personnelles, des idées, des suggestions, des documents et / ou des propositions («contributions») via nos portails de suggestions, d'enquêtes ou de commentaires, vous reconnaissez et acceptez que: (a) vos contributions ne contiennent pas d'informations confidentielles; (b) Nous et / ou Notre Personnel ne sommes soumis à aucune obligation de confidentialité, expresse ou implicite, en ce qui concerne les Contributions; (c) Nous aurons le droit d'utiliser ou de divulguer (ou choisir de ne pas utiliser ou divulguer) de telles Contributions à quelque fin que ce soit,</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>Divers
+Ces conditions d'utilisation seront régies et interprétées conformément aux lois de la juridiction où vous recevez le service. Vous acceptez de vous soumettre à la juridiction non exclusive des tribunaux situés dans la juridiction précitée.
+
+Si, pour quelque raison que ce soit, un tribunal compétent estime qu'une disposition ou une partie des Conditions d'utilisation est inapplicable, le reste des Conditions d'utilisation continuera à avoir force exécutoire.
+
+Vous ne devez pas céder ces Conditions d'utilisation ou céder des droits ou déléguer des obligations en vertu des présentes, en tout ou en partie, que ce soit volontairement ou de plein droit, sans le consentement écrit préalable de la Société. Toute prétendue cession ou délégation sera nulle et non avenue et sans effet.
+
+Ces Conditions d'utilisation constituent l'intégralité de l'accord entre la Société, Notre Personnel et vous en ce qui concerne l'objet des présentes et remplacent et remplacent tous les accords ou accords antérieurs ou contemporains, écrits ou oraux, concernant un tel sujet. Vous pouvez également être soumis à des conditions générales supplémentaires qui peuvent s'appliquer lorsque vous utilisez certaines parties du Service ou des services d'affiliation ou du contenu de tiers.
+
+Toute renonciation à une disposition des Conditions d'utilisation par une partie ne sera effective que si elle est écrite et signée par Nous et une telle partie. Le défaut de la Société et / ou de Notre Personnel d'exercer ou d'appliquer tout droit ou disposition de ces termes et conditions ne constitue pas une renonciation à ce droit ou à cette disposition.
+
+Vous acceptez que, sauf disposition contraire expressément stipulée dans les présentes Conditions d'utilisation, il n'y aura pas de tiers bénéficiaires de cet accord.
+
+Vous acceptez expressément que, indépendamment de toute loi ou loi contraire, toute réclamation ou cause d'action découlant de ou liée à l'utilisation du Service ou les Conditions d'utilisation doit être déposée dans un (1) an après une telle réclamation ou cause de l'action est survenue ou sera à jamais interdite.</value>
+  </data>
+</root>

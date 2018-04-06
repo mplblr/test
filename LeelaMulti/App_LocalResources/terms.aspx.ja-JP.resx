@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/images/japanese/connect_btn_japanese.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/japanese/devices.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/japanese/website_btn_japanese.png</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>どこからでも高速インターネットアクセスをお楽しみください。</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>利用規約</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>お客様が「接続」をクリックすると、お客様の本サービスの使用が開始され、以下のいずれか早い時点で終了します。（a）コンピュータからのケーブルの取り外し。 または（b）コンピュータの電源を切っている。
+
+本サービスには、当社またはその関連会社、従業員、役員、ライセンサー、パートナー、サプライヤー、コンサルタント、代理店、下請け業者（総称して「当社」）が所有および/または管理するコンテンツと、第三者が所有または管理するコンテンツ 当社または当社の人員にライセンスされています（総称して「コンテンツ」）。
+
+本サービスをご利用になる場合は、次のことを確認する必要があります。</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>（a）いかなる人物の知的財産権を含む権利を侵害しようとしていないし、侵害しないこと。
+
+（b）関連するすべての法律、規則、および/またはコード/ガイドラインに従って本サービスを使用する。
+
+（c）他のネットワークユーザー、サービスまたは機器を混乱させたり干渉したりすることをしないでください。
+
+（d）競合サービスの加入者になるように人々を勧誘したり、当社のサービスを再販または転売しようとするために本サービスを使用したり、使用しようとしたりしないこと。 そして
+
+（e）本サービスにアクセスしている施設の所有者の要件に従うこと。</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>所有権
+当社および/または当社の人事部は、サービスポータルに掲示される可能性のある広告（著作権、商標権によって保護されている専有および機密情報を含む）を含む、サービスおよび/またはコンテンツのすべての権利を所有および保持します。 、サービスマーク、特許またはその他の知的所有権およびその他の法律。当社または当社の専有情報の一部または全部に基づいて、複製、変更、発行、送信、配布、実行、表示、販売、または派生物の作成を行うことはできません。
+
+クッキー
+当社および/または担当者は、お客様のコンピュータのハードドライブにインターネットCookieを置くことができます。インターネットクッキーは、あなたが見たウェブサイトや広告など、インターネットの使用に関する特定の情報を保存します。あなたが本サービスを再訪すると、私たちおよび/または私たちの人員は、インターネットのクッキーによってあなたを認識し、それに従ってあなたの経験をカスタマイズすることができます。利用可能な場合は、Webクライアントソフトウェアの適切な機能を使用して、インターネットCookieを拒否することができます。
+
+プライバシーポリシー＆データ転送の承諾
+サービスを提供するために、当社および/または当社スタッフは、お客様を特定できる情報（「個人情報」）を収集する必要がある場合があります。この個人情報は、（a）システムのパフォーマンスとセキュリティ目的のために収集されます。 （b）編集目的およびフィードバック目的、およびその他のマーケティングおよび宣伝目的のため。 （c）ユーザーが本サービスを使用する際の行動を分析する。 （d）製品開発およびコンテンツ改善のため。 （e）当社のウェブサイトおよびサービスのコンテンツおよびレイアウトをカスタマイズする。 （f）該当する法律および規則に基づいて必要に応じて変更することができます。また、当社および/または当社の人事担当者は、自発的な登録システムの一部としてボランティアした個人情報も収集することがあります。
+
+お客様は、当社および/または当社の人員が、当社および/または当社従業員が限られた専門機能（例えば、郵送事業者）を契約している第三者の請負業者に個人情報を開示する可能性があることに特に同意し、同意するものとします。しかし、当社および/または当社従業員がそうする場合、当社および/または当社の人員は、関連契約者が当社および/または当社の人員にサービスを提供する必要がある個人情報のみを開示します。当社および/または当社の人員は、契約者が本プライバシーポリシーに従って個人情報を取り扱い、当社および/または当社従業員へのサービスの提供以外の目的で個人情報を使用または開示しないことを保証するための合理的な措置を講じる。
+
+お客様は、特定のサービスを提供するために当社および/または当社の人員が他の当事者と随時パートナーシップを結ぶことができることを特に認め、同意するものとします。ユーザーがこれらの第三者サービスを受けることを要求すると、これらの第三者がこれらのサービスを関連ユーザーに提供するために必要なすべての連絡先情報を共有します。当社および/または当社の人員は、ユーザーが意図的かつ自発的に開示した情報のみを開示します。これらの第三者は、これらのサービスを提供する目的を除いて、個人情報を使用することはできません。当社および/または当社の人員は、集計された人口統計情報を当社のパートナーおよび広告主と共有する場合がありますが、そのような情報は個人を特定するものではありません。これらの第三者は、これらのサービスを提供する目的を除いて、個人情報を使用することはできません。当社および/または当社の人員は、集計された人口統計情報を当社のパートナーおよび広告主と共有することもありますが、そのような情報は個人の存在を特定するものではありません。
+
+前述の理由により、お客様は、お客様が本サービスを提供された国からのお客様の個人情報の譲渡に同意する必要があります。特に、個人情報が場合によっては他の国に送信されることがありますのでご注意ください。私たちがあなたにサービスを提供するためには、あなたの同意が必要です。個人情報の譲渡に同意しない場合は、「接続」をクリックしないでください。
+
+前述の一般性を制限することなく、お客様は、法律または法令により要求された場合に、当社および/または当社従業員がお客様から収集された情報を開示することを認め、同意し、同意するものとします。 （a）法的なプロセスや規制を遵守すること。 （b）利用規約を実施する。 （c）当社および/または当社の人員の権利または財産（当社の契約の実施を含む）を保護および擁護すること。 （d）顧客サービスに対するお客様の要望に応えます。 （e）当社および/または当社の人員の権利、財産または個人の安全、ならびにユーザーおよび一般の人々の権利を保護する。
+
+データと個人情報の保管
+当社および/または当社の人員は、アクセスしたURL、インターネット活動の期間および時期を含むがこれに限定されない個人情報およびその他のデータを保管することができます。私たちおよび/または私たちの人員は、私たちが適切と思っている限り、または任意のアプリ
+Shoyū-ken tōsha oyobi/ matawa tōsha no hitogotobu wa, sābisupōtaru ni keiji sa reru kanōsei no aru kōkoku (chosakken, shōhyō-ken ni yotte hogo sa rete iru sen'yū oyobi kimitsu jōhō o fukumu) o fukumu, sābisu oyobi/ matawa kontentsu no subete no kenri o shoyū oyobi hoji shimasu. , Sābisumāku, tokkyo matawa sonohoka no chiteki shoyū-ken'oyobi sonohoka no hōritsu. Tōsha matawa tōsha no sen'yū jōhō no ichibu matawa zenbu ni motodzuite, fukusei, henkō, hakkō, sōshin, haifu, jikkō, hyōji, hanbai, matawa hasei-mono no sakusei o okonau koto wa dekimasen. Kukkī tōsha oyobi/ matawa tantōsha wa, okyakusama no konpyūta no hādodoraibu ni intānetto kukkī o oku koto ga dekimasu. Intānettokukkī wa, anata ga mita u~ebusaito ya kōkoku nado, intānetto no shiyō ni kansuru tokutei no jōhō o hozon shimasu. Anata ga hon sābisu o saihō suru to, watashitachi oyobi/ matawa watashitachi no jin'in wa, intānetto no kukkī ni yotte anata o ninshiki shi, soreni shitagatte anata no keiken o kasutamaizu suru koto ga dekimasu. Riyō kanōna baai wa, u~ebu kuraiantosofutō~ea no tekisetsuna kinō o shiyō shite, intānetto kukkī o kyohi suru koto ga dekimasu. Puraibashīporishī&amp; dēta tensō no shōdaku sābisu o teikyō suru tame ni, tōsha oyobi/ matawa tōsha sutaffu wa, okyakusama o tokutei dekiru jōhō (`kojin jōhō') o shūshū suru hitsuyō ga aru baai ga arimasu. Kono kojin jōhō wa,(a ) shisutemu no pafōmansu to sekyuriti mokuteki no tame ni shūshū sa remasu. (B ) henshū mokuteki oyobi fīdobakku mokuteki, oyobi sonohoka no māketingu oyobi senden mokuteki no tame. (C ) yūzā ga hon sābisu o shiyō suru sai no kōdō o bunseki suru. (D ) seihin kaihatsu oyobi kontentsu kaizen no tame. (E ) tōsha no u~ebusaito oyobi sābisu no kontentsu oyobi reiauto o kasutamaizu suru. (F ) gaitō suru hōritsu oyobi kisoku nimotozuite hitsuyōniōjite henkō suru koto ga dekimasu. Mata, tōsha oyobi/ matawa tōsha no jinji tantōsha wa, jihatsu-tekina tōroku shisutemu no ichibu to shite borantia shita kojin jōhō mo shūshū suru koto ga arimasu. Okyakusama wa, tōsha oyobi/ matawa tōsha no jin'in ga, tōsha oyobi/ matawa tōsha jūgyōin ga kagira reta senmon kinō (tatoeba, yūsō jigyō-sha) o keiyaku shite iru daisansha no ukeoi gyōsha ni kojin jōhō o kaiji suru kanōsei ga aru koto ni tokuni dōi shi, dōi suru mono to shimasu. Shikashi, tōsha oyobi/ matawa tōsha jūgyōin ga sō suru baai, tōsha oyobi/ matawa tōsha no jin'in wa, kanren keiyaku-sha ga tōsha oyobi/ matawa tōsha no jin'in ni sābisu o teikyō suruhitsuyōgāru kojin jōhō nomi o kaiji shimasu. Tōsha oyobi/ matawa tōsha no jin'in wa, keiyaku-sha ga hon puraibashīporishī ni shitagatte kojin jōhō o toriatsukai, tōsha oyobi/ matawa tōsha jūgyōin e no sābisu no teikyō igai no mokuteki de kojin jōhō o shiyō matawa kaiji shinai koto o hoshō suru tame no gōri-tekina sochi o kōjiru. Okyakusama wa, tokutei no sābisu o teikyō suru tame ni tōsha oyobi/ matawa tōsha no jin'in ga hoka no tōjisha to zuiji pātonāshippu o musubu koto ga dekiru koto o tokuni mitome, dōi suru mono to shimasu. Yūzā ga korera no daisansha sābisu o ukeru koto o yōkyū suru to, korera no daisansha ga korera no sābisu o kanren yūzā ni teikyō suru tame ni hitsuyōna subete no renrakusen jōhō o kyōyū shimasu. Tōsha oyobi/ matawa tōsha no jin'in wa, yūzā ga itoteki katsu jihatsu-teki ni kaiji shita jōhō nomi o kaiji shimasu. Korera no daisansha wa, korera no sābisu o teikyō suru mokuteki o nozoite, kojin jōhō o shiyō suru koto wa dekimasen. Tōsha oyobi/ matawa tōsha no jin'in wa, shūkei sa reta jinkō tōkei jōhō o tōsha no pātonā oyobi kōkoku-nushi to kyōyū suru baai ga arimasuga, sono yōna jōhō wa kojin o tokutei suru monode wa arimasen. Korera no daisansha wa, korera no sābisu o teikyō suru mokuteki o nozoite, kojin jōhō o shiyō suru koto wa dekimasen. Tōsha oyobi/ matawa tōsha no jin'in wa, shūkei sa reta jinkō tōkei jōhō o tōsha no pātonā oyobi kōkoku-nushi to kyōyū suru koto mo arimasuga, sono yōna jōhō wa kojin no sonzai o tokutei suru monode wa arimasen. Zenjutsu no riyū ni yori, okyakusama wa, okyakusama ga hon sābisu o teikyō sa reta kuni kara no okyakusama no kojin jōhō no jōto ni dōi suru hitsuyō ga arimasu. Tokuni, kojin jōhō ga baainiyotte wa hoka no kuni ni sōshin sa reru koto ga arimasunode go chūi kudasai. Watashitachi ga anata ni sābisu o teikyō suru tame ni wa, anata no dōi ga hitsuyōdesu. Kojin jōhō no jōto ni dōi shinai baai wa,`setsuzoku' o kurikku shinaide kudasai. Zenjutsu no ippan-sei o seigen suru koto naku, okyakusama wa, hōritsu matawa hōrei ni yori yōkyū sa reta baai ni, tōsha oyobi/ matawa tōsha jūgyōin ga okyakusama kara shūshū sa reta jōhō o kaiji suru koto o mitome, dōi shi, dōi suru mono to shimasu. (A ) hōtekina purosesu ya kisei o junshu suru koto. (B ) riyō kiyaku o jisshi suru. (C ) tōsha oyobi/ matawa tōsha no jin'in no kenri matawa zaisan (tōsha no keiyaku no jisshi o fukumu) o hogo oyobi yōgo suru koto. (D ) kokyaku sābisu ni taisuru okyakusama no yōbō ni kotaemasu. (E ) tōsha oyobi/ matawa tōsha no jin'in no kenri, zaisan matawa kojin no anzen, narabini yūzā oyobi ippan no hitobito no kenri o hogo suru. Dēta to kojin jōhō no hokan tōsha oyobi/ matawa tōsha no jin'in wa, akusesu shita URL, intānetto katsudō no kikan oyobi jiki o fukumu ga kore ni gentei sa renai kojin jōhō oyobi sonohoka no dēta o hokan suru koto ga dekimasu. Watashi-tachioyobi/ matawa watashitachi no jin'in wa, watashitachi ga tekisetsu to omotte iru kagiri, matawa nin'i no apuri
+Google Translate for Business:Translator ToolkitWebsite Translator</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>保証の免責
+私たちと私たちの人員は、サービスに表示される情報やコンテンツの正確性、完全性、合法性、信頼性、操作性、可用性について一切の責任を負いません。当社および当社の人員は、本サービスを使用するお客様の行為および他人の行為について、すべての責任と責任を放棄します。
+
+あなたは明白に理解し、それに同意します：
+
+（a）お客様のサービスの使用は、お客様の責任で行ってください。本サービスおよびすべてのコンテンツ（本サービスを通じて取得またはアクセスされた情報またはコンテンツを含むがこれに限定されない）、それらに含まれる製品およびサービスは、「現状有姿」で提供され、いかなる保証もされていません。当社と企業のエンティティは、商品性、特定目的への適合性、所有権の非侵害性を含め、明示的、黙示的、法定的な保証を一切制限するものではなく、明示的に法律で認められる限り、
+
+（b）当社および当社の当事者は、本サービスのセキュリティ、信頼性、適時性、および性能に関するいかなる保証も否認します。特に、当社と企業のエンティティは、（i）本サービスがお客様の要件を満たしていることを保証するものではありません。 （ii）本サービスは中断なく、タイムリーに、安全に、またはエラーフリーであること。 （iii）本サービスを使用して得られる結果が正確または信頼できるものであること。 （iv）サービスを通じてお客様が購入または取得した製品、サービス、情報またはその他の素材の品質がお客様の期待を満たしている
+
+（c）当社および当社の拒否、本サービスを通じて取得された情報またはアドバイスに対する保証。
+
+（d）当社と当事者は、本サービスによって提供されたリンクを通じて受け取った情報またはアドバイスと同様に、本サービスを通じて提供されたサービスまたは広告、または本サービスによって提供されたリンクを通して受け取ったサービスまたは商品に対する保証を放棄します。
+
+（e）あなたは、あなたの自己の裁量およびリスクで本サービスを使用して情報またはデータをダウンロードする、または他の方法で取得し、かかる情報のダウンロードに起因するお客様のコンピュータシステムの損傷またはデータの損失に対して完全に責任を負うものとします。データ。
+
+責任の制限
+いかなる状況であっても、当社および/または当社の当事者は、当社および/または当社の個人が有しているか否かにかかわらず、サービスの使用に関連してまたはその使用に関連して生じる直接的、間接的、偶発的、派生的、逸失利益、データまたは他の無形の損失の損害（以下を含むがこれに限定されない）を含むがこれに限定されない、かかる損害の可能性について知らされている。 （ii）購入した商品、データ、情報またはサービスから得られる代替商品およびサービスの調達費用または本サービスを通じてまたは本サービスから入力された取引。 （iii）本サービス上の第三者の陳述書または行為。 （iv）本サービスの信頼性。 （v）サービスの中断、中止、または中止（第三者によって生じた損害を含む）。または（vi）本サービスに関連するその他の事項。
+
+いかなる場合においても、当社および/または当社の当事者は、100米ドルを超える金額でお客様に責任を負うものではありません。
+
+上記の一般性を制限するものではなく、当社および/または当社の従業員は、直接的または間接的に生じた遅延または不履行に起因する責任を負うものではなく、当社の合理的な統制、コンピュータ機器の故障、電気通信機器の故障、その他の機器の故障、電気的な停電、ストライキ、労働争議、人身傷害、人命救助、民間の災害、雇用機会の喪失、火事、洪水、暴風雨、爆発、 、WAR、政府の行為、国内外の裁判所または裁判所の命令、第三者の行為、熱、光、または空調における逸失または逸失の原因となります。
+
+損害賠償
+お客様は、本サービスおよび/またはコンテンツの使用に起因するまたはそれに関連して発生した第三者の請求（すべての請求、損失、損害賠償から生じた責任または費用を含む）に対して、会社および当社の人員を無害かつ補償することに同意します訴訟費用、訴訟費用、弁護士報酬など、あらゆる種類のものが含まれます。
+
+私たちへの貢献
+私たちの提案、調査またはフィードバックポータルを通じて個人情報、アイデア、提案、文書、および/または提案（以下「貢献」）を提出することにより、お客様は以下を認識し同意するものとします：（a）あなたの寄稿に機密情報または専有情報は含まれません。 （b）当社および/または当社の人員は、寄稿に関して明示的または黙示的に守秘義務を負いません。 （c）当社は、いかなる形であれ、いかなる方法でも、そのような貢献を使用または開示する（または使用または開示しないことを選択する）権利を有するものとします。</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>雑
+これらの利用規約は、お客様がサービスを受ける管轄の法律に準拠して解釈されるものとします。あなたは、上記の管轄にある裁判所の非専属管轄権に従うことに同意するものとします。
+
+何らかの理由で管轄権を有する裁判所が、本利用規約の条項または条項の一部が執行不能であると判断した場合でも、本利用規約の残りの部分は引き続き有効です。
+
+お客様は、事前の書面による同意を得ることなく、本利用規約を譲渡したり、本契約の全部または一部の権利を譲渡したり、委任したりすることはできません。そのような意図された譲渡または委任は無効で無効となり、効力も効力もありません。
+
+これらの使用条件は、本件の主題に関して当社、当社とお客様との間の完全な合意を構成し、そのような主題に関する書面または口頭による過去または現在のすべての理解または合意に取って代わるものである。また、サービスの一部または関連サービスまたはサードパーティのコンテンツを使用する場合に適用される追加の条件が適用される場合があります。
+
+当事者による本利用規約の条項の放棄は、当社およびかかる当事者によって書面で署名された場合にのみ有効です。当社および/または当社員がこれらの条件の権利または条項を行使または執行しなかった場合は、かかる権利または条項の放棄とはみなされません。
+
+お客様は、本利用規約に明示的に規定されている場合を除き、本契約の第三者受益者は存在しないものとします。
+
+お客様は、法令や法律にかかわらず、本サービスまたは利用規約の使用またはその使用に関連して発生した請求または原因が、そのような請求または原因の発生後1年以内に提出されなければならないことに特に同意します。行動が起こり、永遠に禁止されます。</value>
+  </data>
+</root>

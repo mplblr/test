@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/images/chinese/connect_btn_chinese.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/chinese/connect_btn.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/chinese/website_btn_chinese.png</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>歡迎光臨</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>隨處享受高速網際網路存取</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>使用條款</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>您點擊“連接”開始使用本服務，並在以下各項的前面結束：（a）從計算機上拔下電纜; 或（b）您的電腦被關閉。
+
+本服務可能包括由我們或我們的附屬公司，員工，高級職員，許可人，合作夥伴，供應商，顧問，代理商和分包商（統稱為“我們的人員”）擁有和/或控制的內容以及由第三方擁有或控制的內容， 授權給我們或我們的人員（統稱為“內容”）。
+
+使用服務時，您必須確保您：</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>（a）不要企圖侵犯任何人的權利，包括知識產權;
+
+（b）根據任何相關國家的所有適用法律，法規和/或法規/準則使用本服務;
+
+（c）不做或試圖做任何會擾亂或乾擾其他網絡用戶，服務或設備的事情;
+
+（d）不要或試圖使用服務來請求人們成為競爭性服務的訂戶，或者轉售或試圖轉售我們的服務; 和
+
+（e）遵守您使用本服務的場所所有者的任何要求。</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>所有權
+我們和/或我們的人員擁有並保留服務和/或內容的所有權利，包括（但不限於）可能在服務門戶網站上發布的任何廣告，其中包含受版權，商標保護的專有和機密信息，服務標誌，專利或其他知識產權等法律。您不得複制，修改，發布，傳播，分發，執行，展示，出售或創建基於公司或我們人員專有信息（無論是全部還是部分）的衍生作品。
+
+餅乾
+我們和/或我們的人員可能會將Internet cookies放置在您電腦的硬盤上。互聯網cookies保存有關您使用互聯網的某些信息，包括您瀏覽的網站和廣告。當您重新訪問服務時，我們和/或我們的人員可能會通過互聯網cookie識別您的身份，並據此定制您的體驗。如果可用，您可以使用Web客戶端軟件的相應功能拒絕Internet Cookie。
+
+隱私政策和同意傳輸數據
+為了向您提供服務，我們和/或我們的人員可能需要收集能夠識別您的信息（“個人信息”）。這些個人信息是為了（a）系統性能和安全目的而收集的; （b）編輯和反饋目的以及其他營銷和宣傳目的; （c）分析用戶在使用服務時的行為; （d）產品開發和內容改進; （e）定制我們的網站和服務的內容和佈局;和/或（f）根據適用法律法規的要求。此外，我們和/或我們的人員也可能會收集您自願作為我們自願註冊系統一部分的個人信息。
+
+您明確同意承認並同意我們和/或我們的人員可能會將個人信息披露給我們和/或我們的人員簽訂有限和專門職能（例如郵寄公司）的第三方承包商。但是，如果我們和/或我們的人員這樣做，我們和/或我們的人員只會披露相關承包商需要向我們和/或我們的人員提供服務的個人信息。此外，我們和/或我們的人員採取合理的措施確保我們的承包商按照本隱私政策處理個人信息，除了向我們和/或我們的人員提供服務之外，不要將個人信息用於或披露。
+
+您特別同意承認並同意我們和/或我們的人員可能不時地與其他方合作提供特定服務。當用戶請求接收這些第三方服務時，我們將共享這些第三方所需的所有聯繫信息，以向相關用戶提供這些服務。我們和/或我們的人員只會透露用戶明知和自願披露的信息。除了提供這些服務之外，這些第三方不得使用個人信息。有時候，我們和/或我們的人員也可能會與我們的合作夥伴和廣告商分享匯總的人口統計信息，但這些信息不會識別任何個人。除了提供這些服務之外，這些第三方不得使用個人信息。有時，我們和/或我們的人員也可能會與我們的合作夥伴和廣告客戶分享匯總的人口統計信息，但這些信息不會導致任何個人身份的確認。
+
+由於上述原因，我們需要您同意從您提供本服務的國家/地區轉移您的個人信息。尤其請注意，個人信息在某些情況下可能會傳送到其他國家。您的同意是我們向您提供服務的要求。如果您不同意轉移個人信息，請不要點擊“連接”。
+
+在不限制前述內容的一般性的情況下，您承認，同意並同意我們和/或我們的人員可以披露從您收集的任何信息，如果法律要求這樣做或者確信這樣的訪問，保存或披露是合理必要的：（a）遵守法律程序或法規; （b）執行使用條款; （c）保護和維護我們和/或我們的人員的權利或財產（包括執行我們的協議）; （d）回應您的客戶服務要求;或（e）保護我們和/或我們的人員的權利，財產或人身安全，以及我們的用戶和公眾。
+
+數據和個人信息的存儲
+我們和/或我們的人員可能會存儲您的個人信息和其他數據，包括但不限於您訪問的URL以及您的互聯網活動的持續時間和時間。只要我們認為合適，我們和/或我們的人員可以存儲這些信息，並/或遵守任何應用程序</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>免責聲明
+我們和我們的人員不對本服務上顯示的信息或內容的準確性，完整性，合法性，可靠性，可操作性或可用性承擔任何及所有責任。我們和我們的人員對您的行為和使用本服務的其他人的行為不承擔任何和所有責任。
+
+您明確了解並同意：
+
+（a）您自行承擔使用本服務的風險。服務以及所有內容，信息（包括但不限於通過服務獲取或訪問的任何信息或內容），其中包含的產品和服務均按“原樣”和“現有”的原則提供，不提供任何擔保。我們和公司的實體明確拒絕在法律允許的最大範圍內提供所有明示，暗示和法定的保證，包括但不限於對適銷性，特定用途的適用性以及不侵犯專有權的保證
+
+（b）我們和我們的人員不對服務的安全性，可靠性，及時性和性能做出任何保證。特別是，我們和公司的實體不擔保（i）服務將符合您的要求; （ii）服務不會中斷，及時，安全或沒有錯誤; （iii）使用服務所獲得的結果將是準確或可靠的; （iv）您通過本服務購買或獲得的任何產品，服務，信息或其他材料的質量將滿足您的期望
+
+（c）我們和我們的人員不承擔任何有關通過本服務獲得的任何信息或建議的保證;
+
+（d）我們和我們的員工對通過本服務提供或通過本服務所提供的任何鏈接以及通過本服務中提供的任何鏈接所獲得的任何信息或建議所收到的任何服務或商品擔保均不提供任何擔保。
+
+（e）您通過使用本服務自行決定下載或以其他方式獲得信息或數據，並承擔自行承擔風險的責任，並且對由於下載此類信息而導致的計算機系統損壞或數據丟失承擔全部責任。數據。
+
+責任限制
+在任何情況下，無論我們和/或我們的人員是否因使用本服務而引起或與之相關的任何直接，間接，附帶，間接，特殊或懲戒性的損害，我們和/或我們的人員均不承擔任何責任（i）使用或無法使用本服務的損害，包括但不限於利潤損失，商譽，使用，數據丟失或其他無形損失的可能性; （ii）購買或獲得的任何貨物，數據，信息或服務或通過服務輸入或從服務中獲得的交易導致的替代商品和服務的採購成本; （iii）任何第三方對服務的聲明或行為; （iv）對服務的任何依賴; （v）服務的中斷，暫停或終止（包括第三方產生的此類損害）;或（vi）與本服務有關的任何其他事宜。
+
+在任何情況下，在任何情況下，我們和/或我們的人員都不會對您承擔超過100美元的賠償責任。
+
+在不受上述所有條款限制的情況下，在任何情況下，我們和/或我們的人員將不承擔因直接或間接引起的性質，性能，原因或超出我們的合理控制權而造成的任何延遲或故障責任，包括但不限於限制，互聯網故障，計算機設備故障，電信設備故障，其他設備故障，電力故障，故障，勞動爭議，暴力，導致，民事騷擾，勞工或材料短缺，火災，爆炸，爆炸，上帝的行為，戰爭，政府行為，內部或外部法院或審判庭的命令，第三方的不履行，或者熱，光，空調的波動。
+
+賠款
+您同意保證公司和我們的人員免受與您使用本服務和/或內容相關的任何第三方索賠的責任，包括因所有索賠，損失，損害（實際和相應的），訴訟，判決，訴訟費用和律師費，各種性質和性質。
+
+對我們的貢獻
+您通過我們的建議，調查或反饋網站向我們提交個人信息，意見，建議，文件和/或建議（“貢獻”），您承認並同意：（a）您的貢獻不包含機密或專有信息; （b）我們和/或我們的人員對會費沒有任何明示或暗示的保密義務; （c）我們有權以任何方式使用或披露（或選擇不使用或披露）任何目的</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>免責聲明
+我們和我們的人員不對本服務上顯示的信息或內容的準確性，完整性，合法性，可靠性，可操作性或可用性承擔任何及所有責任。我們和我們的人員對您的行為和使用本服務的其他人的行為不承擔任何和所有責任。
+
+您明確了解並同意：
+
+（a）您自行承擔使用本服務的風險。服務以及所有內容，信息（包括但不限於通過服務獲取或訪問的任何信息或內容），其中包含的產品和服務均按“原樣”和“現有”的原則提供，不提供任何擔保。我們和公司的實體明確拒絕在法律允許的最大範圍內提供所有明示，暗示和法定的保證，包括但不限於對適銷性，特定用途的適用性以及不侵犯專有權的保證
+
+（b）我們和我們的人員不對服務的安全性，可靠性，及時性和性能做出任何保證。特別是，我們和公司的實體不擔保（i）服務將符合您的要求; （ii）服務不會中斷，及時，安全或沒有錯誤; （iii）使用服務所獲得的結果將是準確或可靠的; （iv）您通過本服務購買或獲得的任何產品，服務，信息或其他材料的質量將滿足您的期望
+
+（c）我們和我們的人員不承擔任何有關通過本服務獲得的任何信息或建議的保證;
+
+（d）我們和我們的員工對通過本服務提供或通過本服務所提供的任何鏈接以及通過本服務中提供的任何鏈接所獲得的任何信息或建議所收到的任何服務或商品擔保均不提供任何擔保。
+
+（e）您通過使用本服務自行決定下載或以其他方式獲得信息或數據，並承擔自行承擔風險的責任，並且對由於下載此類信息而導致的計算機系統損壞或數據丟失承擔全部責任。數據。
+
+責任限制
+在任何情況下，無論我們和/或我們的人員是否因使用本服務而引起或與之相關的任何直接，間接，附帶，間接，特殊或懲戒性的損害，我們和/或我們的人員均不承擔任何責任（i）使用或無法使用本服務的損害，包括但不限於利潤損失，商譽，使用，數據丟失或其他無形損失的可能性; （ii）購買或獲得的任何貨物，數據，信息或服務或通過服務輸入或從服務中獲得的交易導致的替代商品和服務的採購成本; （iii）任何第三方對服務的聲明或行為; （iv）對服務的任何依賴; （v）服務的中斷，暫停或終止（包括第三方產生的此類損害）;或（vi）與本服務有關的任何其他事宜。
+
+在任何情況下，在任何情況下，我們和/或我們的人員都不會對您承擔超過100美元的賠償責任。
+
+在不受上述所有條款限制的情況下，在任何情況下，我們和/或我們的人員將不承擔因直接或間接引起的性質，性能，原因或超出我們的合理控制權而造成的任何延遲或故障責任，包括但不限於限制，互聯網故障，計算機設備故障，電信設備故障，其他設備故障，電力故障，故障，勞動爭議，暴力，導致，民事騷擾，勞工或材料短缺，火災，爆炸，爆炸，上帝的行為，戰爭，政府行為，內部或外部法院或審判庭的命令，第三方的不履行，或者熱，光，空調的波動。
+
+賠款
+您同意保證公司和我們的人員免受與您使用本服務和/或內容相關的任何第三方索賠的責任，包括因所有索賠，損失，損害（實際和相應的），訴訟，判決，訴訟費用和律師費，各種性質和性質。
+
+對我們的貢獻
+您通過我們的建議，調查或反饋網站向我們提交個人信息，意見，建議，文件和/或建議（“貢獻”），您承認並同意：（a）您的貢獻不包含機密或專有信息; （b）我們和/或我們的人員對會費沒有任何明示或暗示的保密義務; （c）我們有權以任何方式使用或披露（或選擇不使用或披露）任何目的</value>
+  </data>
+</root>

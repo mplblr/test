@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/images/spanish/connect_btn_spanish.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/spanish/already_purchase_spanish.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/spanish/website_btn_spanish.png</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>bienvenida</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>Disfrute de acceso a Internet de alta velocidad dondequiera que vaya</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>Términos y Condiciones</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>Avisos Legales Electrónicos: The Leela Palace, Nueva Delhi / su Sociedad Matriz / sus Filiales / sus Sociedades del Grupo, otras entidades vinculadas y cada uno de sus ejecutivos, administradores, agentes y empleados (a título colectivo, los “Anfitriones”) y Microsense Pvt. Ltd y sus afiliados, filiales, otras entidades vinculadas, y cada uno de sus ejecutivos, administradores, agentes y empleados (a título colectivo los “Contratistas”) no son responsables de fallos de funcionamiento telefónicos, eléctricos, electrónicos, de red, Internet, ordenadores, hardware o de programas de software, retrasos o dificultados, o de mensajes de correo o de correo electrónico retrasados, perdidos, robados, ilegibles, incompletos, mutilados, enviados por error, cortados o a franquear en destino, así como en relación a publicaciones, conexiones, mensajes o anotaciones o de la seguridad de todas y cada una de dichas cuestiones.</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>Normas de Seguridad Se prohíbe a los usuarios infringir o tratar de infringir la seguridad de la red del Hotel / Servicio de Internet de Banda Ancha, incluyendo, a título no limitativo, (1) acceso a datos no destinados a dicho usuario o acceso a servidores o cuentas a las cuales el usuario no tenga derecho de acceso, (2) tratar de sondear, escanear o comprobar la vulnerabilidad de un sistema o red o de infringir las medidas de seguridad o de autentificación sin la correspondiente autorización, (3) tratar de interferir en el servicio a cualquier usuario, anfitrión o red, incluyendo, a título no limitativo, mediante el envío de virus o “troyanos” a la web, sobrecarga, “inundación”. “bombardeo de correos electrónicos” o “cuelgues”, o (4) el envío de correo electrónico no solicitado, incluidas promociones y/o publicidad de productos o servicios. Las violaciones de la seguridad del sistema o la red pueden ocasionar responsabilidad civil o penal. The Leela Palace, Nueva Delhi y / o sus entidades asociadas tendrán derecho a investigar sucesos en relación a los cuales sospechen de tales infracciones y tendrán derecho a requerir la intervención de fuerzas de seguridad y a colaborar con ellas en la persecución de los usuarios implicados en tales infracciones.</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>Ley Reguladora Aplicable: Si surge cualquier disputa en relación al uso por su parte de Servicios de Internet de Banda Ancha, tal asunto será resuelto de conformidad con la ley y los tribunales de la India, sin dar efecto a los principios de conflictos de la ley de dicho país. Si cualquier disposición del presente contrato es declarada ilegal, nula o no ejecutable, dicha disposición se considerará separable del mismo y no afectará a la validez o la ejecutoriedad de las demás disposiciones. El presente es el acuerdo íntegro entre las partes.</value>
+  </data>
+</root>

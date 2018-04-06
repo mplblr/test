@@ -1,0 +1,122 @@
+﻿
+
+#right_panel{ width:71%; border:solid 0px red; float:left; margin-left:2%; text-align:right;  margin-top:1em; min-height:125px;}
+
+#left_panel{ width:18%; border:solid 0px red; float:right; margin-right:7%; }
+
+#header .logo{ margin-left:0%; width:15%; border:solid 0px red; float:right; margin-right:12%;}
+
+#lang_nav{ width:55%; float:left; border:solid 0px red; margin-top:2em; margin-right:5em;  }
+
+
+.faq_inner_contents {font: 14px 'PTSansRegular', Verdana; color: #000; background-color:#f8f8f8;
+ border:dashed 1px #c7c7c7; padding:0px 10px; padding-bottom:20px; text-align:right; width:95%; margin-left:0px; }
+ 
+ .faq_inner_contents input[type=submit]{ margin-right:0em;}
+
+.technology{cursor: hand;cursor: pointer;font: 14px 'PTSansBold', Verdana; text-align:right;
+margin-top:15px;padding:2px; color:#999;}
+
+.openlanguage{ color: #9b281d; text-align:right; border:solid 0px red; padding-right:1em;}
+
+.openlanguage div{ border:solid 0px red; margin-right:10px;}
+
+.closedlanguage div{ border:solid 0px red; margin-right:10px;}
+
+.closedlanguage{ color:#181818;text-align:right; padding-right:1em;}
+
+.accordprefix{ position:relative; margin-left:10px; display:inline-block; margin-right:-14px;}
+
+.assistance{font-family: 'PTSansBold', Verdana; font-size:13px; margin-right:2em; clear:both; margin-bottom:1em;
+             color:#1c1c1c; padding-top:1em; text-align:right;}
+             
+.footer{ clear:both; background:#201547; min-height:66px; border-top:solid 5px #b7915d; color:#fff;
+          font-family: 'PTSansRegular', Verdana; font-size:12px; }
+
+.footer p{ width:68%; float:left; margin-top:1.5em; margin-right:3em; margin-left:2em; border:solid 0px red; text-align:right; }
+
+.footer img{  float:right; margin-top:1.5em; margin-right:2em;}
+
+.login_details span{ display:inline-block; width:5em; border:solid 0px red; float:right;}
+
+.login_details  p{ border:solid 0px red; text-align:right; }
+
+#support_wrapper1{float:right; }
+
+.tbl_radio { float:right; position:relative;  width:68%;  border:solid 0px red; margin-top:1em;}
+
+.tbl_radio  tr{  margin-bottom:10px; margin-right:10px; width:17em; float:left;  }
+
+.radiospan{  display:inline-block; width:10em; float:right; border:solid 0px red;  } 
+
+.tbl_radio input{ float:right;}
+
+.tbl_radio .complimentary{ text-align:right;}
+
+.WebRupee{ margin-left:5px; min-width:4em; border:solid 0px red; 
+           display:inline-block; vertical-align:bottom; text-align:left; margin-right:5px; }
+
+#myroom{ min-width:10em; float:right; font: 14px 'PTSansBold', Verdana;  border:solid 0px red; }
+
+.terms{clear:both;}
+
+#user_error{ width:48%;   
+ border:solid 0px red; text-align:center; margin:0 auto;  margin-top:16%; margin-bottom:16%;}
+
+#user_error2{ margin-left:0%; margin-right:20%; border:solid 0px red;}
+
+.content_panel{ background:#f8f8f8; border:solid 1px #c3c3c3; width:70%; float:right; margin-top:2%; margin-right:3%;}
+
+.content_panel h1{ font: 14px 'PTSansBold', Verdana; background:url('images/hdr_bg.jpg') repeat-x left top; padding-top:10px;
+                    padding-bottom:10px; padding-right:10px;}
+
+.display_items{position:relative; border:solid 0px red;}
+
+.display_items span{ display:inline-block; width:29%; margin-bottom:10px; border:solid 0px red;}
+
+.display_items .lbl_fields{display:inline-block; min-width:50%; border:solid 0px red;}
+
+.display_items p{ clear:both;}
+
+.gadget_img{ position:absolute; left:5%; top:-5px;}
+
+.panel2 { margin-right:10px; width:40%; float:right; border:solid 0px red; text-align:right;}
+
+.panel2 p{float:right; width:40%;}
+
+.panel2 span{ border:solid 0px red; float:left;}
+
+.panel2 #price_list{  float:right; text-align:left; border:solid 0px red; display:inline-block; }
+
+.panel2 p{ width:15em;}
+
+#new_win_btn{ width:97%;}
+
+.banner_right{ float:left; width:22%; margin-top:2%; border:solid 0px red; margin-right:3%;}
+
+.remaing_time{ position:relative; font: 14px 'PTSansBold', Verdana; color:#fff; width:15%; text-align:right; float:left; border:solid 0px red; margin-top:2em; margin-right:0px;}
+
+.img_arrow2{ float:right; margin-left:10px; vertical-align:middle; margin-top:1px;}
+
+#email_fields .txt_box{ float:right; margin-left:5px; margin-top:-1px;}
+
+
+.plan_info{ text-align:right;float:right;}
+
+#upgrade img{ float:right;}
+
+#upgrade span{  text-align:right;}
+
+.plan_info p{ text-align:right;}
+
+*+html .plan_info p{ text-align:right;}
+
+
+ 
+
+
+
+
+
+
+

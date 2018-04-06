@@ -1,0 +1,80 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SiteBase.master.vb"
+    Inherits="MobileApp.SiteBase" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>THE LEELA PALACE</title>
+    <meta name="viewport" content="height=device-height,width=device-width, minimum-scale=1.0,maximum-scale=1.0" />
+    <link href="mob.css" rel="stylesheet" type="text/css" media="screen,handheld" />
+    <link href="iphone.css" rel="stylesheet" type="text/css" media="screen,handheld" />
+    <link href="Symbol.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Symbol.css" media="screen,handheld" />
+    <link rel="stylesheet" media="all and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)"
+        href="ipad-portrait.css" />
+    <link rel="stylesheet" media="all and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)"
+        href="ipad-landscape.css" />
+    <link rel="stylesheet" media="all and (min-device-width: 1025px)" href="ipad-landscape.css" />
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" />
+    <link media="all and (-webkit-min-device-pixel-ratio:2)" href="iphone4.css" type="text/css"
+        rel="stylesheet" />
+    <link id="dummyLink" runat="server" href="dummy.css" rel="stylesheet" type="text/css"
+        media="screen,handheld" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="BaseForm" runat="server">
+    <div id="main_wrapper">
+        <div id="header">
+            <img src="images/mob_logo.jpg" alt="" />
+        </div>
+        <div id="divider">
+            <ul>
+                <li>
+                    <asp:linkbutton  ID="HyperLink1" runat="server" CssClass="hover_nav">Internet Plan</asp:linkbutton></li>&nbsp;|&nbsp;
+                <li>
+                    <asp:linkbutton ID="HyperLink2" runat="server" CssClass="hover_nav2">Prepaid Card Access</asp:linkbutton></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="PageContentPlace" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            <img src="images/footer.gif" alt="" />
+        </div>
+    </div>
+    <div id="ScriptSection">
+
+        <script src="jslib/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+              var detactIPadOrientation = function() {
+                if (navigator.platform === "iPad") {
+
+                    var width = window.innerWidth;
+                    if (width > 800) {
+                        $("link[id$=dummyLink]").attr("href", "ipad-landscape.css");
+                    }
+                    else {
+                        $("link[id$=dummyLink]").attr("href", "ipad-portrait.css");
+                    }
+                   
+                }
+            };
+            $(window).bind("orientationchange", function(event) {
+                detactIPadOrientation();
+            });
+
+            $(document).ready(function() {
+                detactIPadOrientation();
+            });
+
+        </script>
+
+        <asp:ContentPlaceHolder ID="ScriptContentPlace" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

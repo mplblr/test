@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="C1" xml:space="preserve">
+    <value>~/images/connect_btn.png</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>~/images/devices.png</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>~/images/website_btn.png</value>
+  </data>
+  <data name="m1" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="m2" xml:space="preserve">
+    <value>Enjoy high-speed internet access from wherever you are</value>
+  </data>
+  <data name="m3" xml:space="preserve">
+    <value>Terms of Use</value>
+  </data>
+  <data name="m4" xml:space="preserve">
+    <value>Your use of the Service commences when you click “Connect” and ends on the earlier of: (a) the removal of the cable from your computer; or, (b) your computer being turned off.
+
+The Service may include both content owned and/or controlled by Us or our affiliates, employees, officers, licensors, partners, suppliers, consultants, agents and subcontractors (collectively “Our Personnel”) as well as content owned or controlled by third parties and licensed to Us or our Personnel (collectively, the "Content").
+
+When using the Service, you must ensure that you:</value>
+  </data>
+  <data name="m5" xml:space="preserve">
+    <value>(a)	do not and do not attempt to infringe the rights, including intellectual property rights, of any person;
+
+(b)	use the Service in accordance with all applicable laws, regulations and/or codes/guidelines of any relevant country;
+
+(c)	do not do or attempt to do anything which would disrupt or interfere with other network users, services or equipment;
+
+(d)	do not do or attempt to use the Service to solicit people to become subscribers of competing services or resell or attempt to resell our services; and
+
+(e)	comply with any requirement(s) of the owner of the premises in which you are accessing the Service.</value>
+  </data>
+  <data name="m6" xml:space="preserve">
+    <value>Proprietary Rights
+We, and/or our Personnel, own and retain all rights in the Service and/or Content, including (without limitation) any advertisements which may be posted on the Service portal, which contains proprietary and confidential information that is protected by copyrights, trademarks, service marks, patents or other intellectual property rights and other laws. You may not copy, modify, publish, transmit, distribute, perform, display, sell or create derivative works based on any of Company’s or Our Personnel’s proprietary information, whether in whole or in part.
+
+Cookies
+We and/or Our Personnel may place Internet cookies on your computer’s hard drives. Internet cookies save certain information about your usage of the internet, including websites and advertisements viewed by you. When you revisits the Service, We and/or Our Personnel may recognise you by the Internet cookie and customise your experience accordingly. You may decline the Internet cookie by using the appropriate feature of your Web client software, if available.
+
+Privacy Policy &amp; Consent to Transfer of Data
+In order to provide you with the Service, We and/or Our Personnel may need to collect information that is capable of identifying you (“Personal Information”). This Personal Information is collected for (a) system performance and security purposes; (b) editorial and feedback purposes and for other marketing and promotional purposes; (c) to analyse the behaviour of users when they use the Service; (d) for product development and content improvement; (e) to customise content and the layout of our website and Service; and/or (f) as required under applicable laws and regulations. In addition, We and/or Our Personnel may also collect Personal Information that you volunteer as part of our voluntary registration system.
+
+You specifically agree acknowledge and agree that We and/or Our Personnel may disclose Personal Information to third party contractors to whom We and/or Our Personnel contract out limited and specialised functions (e.g. mailing houses). However, if We and/or Our Personnel do so, We and/or Our Personnel only disclose Personal Information that the relevant contractor needs to provide the service to Us and/or Our Personnel. Also, We and/or Our Personnel take reasonable steps to ensure that our contractors handle Personal Information in accordance with this Privacy Policy, and do not use or disclose Personal Information for any purpose other than the provision of services to Us and/or Our Personnel.
+
+You specifically agree acknowledge and agree that We and/or Our Personnel may partner from time to time with other parties to provide specific services. When a user requests to receive these third party services, we will share all contact information necessary for these third parties to provide these services to the relevant user. We and/or Our Personnel will disclose only information knowingly and voluntarily disclosed by users. These third parties are not allowed to use Personal Information except for the purpose of providing these services. Sometimes, We and/or Our Personnel may also share aggregated demographic information with our partners and advertisers, but such information will not identify any individual. These third parties are not allowed to use Personal Information except for the purpose of providing these services. Sometimes, We and/or Our Personnel may also share aggregated demographic information with our partners and advertisers, but such information will not result in identification of any individual being.
+
+For the aforesaid reasons, We need you to consent to the transfer of Personal Information about you from the country in which you are provided with the Service. Particularly, please note that Personal Information may in some cases be transmitted to other countries. Your consent is a requirement in order for Us to provide you with the Service. If you do not consent to the transfer of Personal Information, do not click "Connect".
+
+Without limiting the generality of the foregoing, You acknowledge, consent and agree that We and/or Our Personnel may disclose any information collected from you, if required to do so by law or in a good faith belief that such access, preservation or disclosure is reasonably necessary to: (a) comply with legal process or regulations; (b) enforce the Terms of Use; (c) protect and defend the rights or property of Us and/or Our Personnel (including the enforcement of our agreements); (d) respond to your requests for customer service; or (e) protect Our and/or Our Personnel’s rights, property or personal safety, as well as those of our users and the public.
+
+Storage of Data and Personal Information
+We and/or Our Personnel may store your Personal Information and other data, including but not limited to the URLs you visit and the duration and timing of your internet activity. We and/or Our Personnel may store such information for as long as we deem appropriate, and/or to comply with any applicable laws.
+
+Security
+We and/or Our Personnel have taken measures to ensure that the Service is secure, and that Personal Information which We and/or Our Personnel hold is protected from risks such as unauthorised access, modification or disclosure. We and/or Our Personnel use a variety of security technologies and procedures to do this but as the use of the Internet can never be completely secure, you specifically acknowledge and agree that We and/or Our Personnel shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with any unauthorised access, modification or disclosure of your Personal Information.
+
+Internet Content
+You understand that by using the Service, you may be exposed to Content or internet content that is offensive, indecent or objectionable. Under no circumstances will We and/or Our Personnel be liable in any way for any such content, including, but not limited to, any errors or omissions in any Content or internet content, or for any loss or damage of any kind incurred as a result of the use or display of any Content or internet Content, whether foreseeable or otherwise. You agree that you must evaluate, and bear all risks associated with, the use of any Content or internet content, including any reliance on the accuracy, completeness, or usefulness of such Content or internet content.
+
+You acknowledge that We do not pre-screen, control, edit or endorse Content and/or internet content made available through the Service and We have no obligation to monitor such Content and/or internet content. If we discover Content that does not appear to conform to these Terms of Use, We and/or Our Personnel may investigate and determine in good faith and in our sole discretion whether to remove such Content if it is within our power to do so. We and Our Personnel have no liability or responsibility for the availability, performance or non-performance of such activities.
+
+Dealing with Advertisers
+The portal of the Service may include advertisements and promotions by third parties. Your correspondence, business dealings or participation in promotions of advertisers found on or through the Service, including payment and delivery of related goods or services, and any other terms, conditions, warranties or representations associated with such dealings, are solely between you and such advertisers or third parties. You agree that We and/or Our Personnel shall not be responsible or liable for any loss or damage of any kind incurred as a result of any such dealings or as the result of the presence of such advertisers on the Service.
+
+Links and Third Party Information
+The portal of the Service may include links to third party websites or information from third party websites such as travel, restaurant, shopping, weather and news information that resides on sites not owned or controlled by Us and/or Our Personnel. As We and/or Our Personnel have no control over such sites and resources, you acknowledge and agree that We and/or Our Personnel are not responsible for the availability of such external sites or resources, and do not endorse nor are responsible or liable for any content on or available from such sites or resources. You further acknowledge and agree that We and/or Our Personnel shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with your use of or reliance on any such content available on or through any such site or resource.
+
+Flight Information
+The portal of the Services may include flight information provided by third parties. We and/or Our Personnel have no control over such flight information and therefore We and/or Our Personnel shall not be liable for and cannot guarantee the timeliness, reliability or accurateness of any and all such flight information. We shall, on a best efforts basis, attempt to ensure you do receive timely and accurate flight information. In case of any doubt, please check with your travel agent or airline nearer the relevant date and time of the flight arrival/departure. Further We and/or Our Personnel shall not be liable for any loss or damage, direct or indirect, which you may suffer as a result of accessing or replying such flight information. Please note that We and/or Our Personnel may at any time withdraw this flight information facility without any further notice to you.
+
+Check-in and Boarding Pass Printing Facility
+The portal of the Services may include check-in and boarding pass printing facility. The availability and use of such check-in and boarding pass printing facility shall be subject to the terms and conditions imposed by the airline concerned and such other terms and conditions which may be imposed by Us and/or Our Personnel concerning the use of such facility from time to time. Particularly, please note that the use of such boarding pass printing facility may be subject to additional charges.
+
+Payment of Fees
+If you are required to pay fees for use of the Service, you must pay the persons operating the premises in which you are currently accessing the Service in accordance with their directions, such persons being agents, for billing purposes, of the party to whom fees for the Service are due.
+
+We and/or Our Personnel may immediately and without notice to you suspend or terminate the Service if you breach a term of these Terms of Use or if We and/or Our Personnel suspect or have reason to suspect that you are in breach of these Terms of Use.
+
+We and/or Our Personnel may also suspend or terminate the Service by reason of a technical failure or other technical problem with the provision of the Service.
+
+In the case of the suspension and/or termination of the Service, all outstanding fees up to and including the commencement of suspension or the time of termination, become immediately payable upon suspension and/or termination, as applicable, and in no circumstances will any fees paid under these terms be refundable.
+
+Changes in Terms and Conditions
+We and/or Our Personnel reserve the right to modify these Terms of Use from time to time without further notice. Please review these Terms of Use from time to time so that you will be apprised of any changes.
+
+We and/or Our Personnel may modify or terminate our Service from time to time, for any reason, and without notice or liability to you or any other users or any third parties.</value>
+  </data>
+  <data name="m7" xml:space="preserve">
+    <value>Disclaimer of Warranties
+We and Our Personnel disclaim any and all responsibility or liability for the accuracy, completeness, legality, reliability, operability or availability of information or Content displayed on the Service. We and Our Personnel disclaim any and all responsibility and liability for your conduct and for the conduct of others using the Service.
+
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT:
+
+(a) YOUR USE OF THE SERVICE IS AT YOUR SOLE RISK. THE SERVICE, AND ALL CONTENT, INFORMATION (INCLUDING, WITHOUT LIMITATION, ANY INFORMATION OR CONTENT OBTAINED OR ACCESSED THROUGH THE SERVICE), PRODUCTS AND SERVICES INCLUDED THEREIN ARE PROVIDED ON AN "AS IS" AND “AS AVAILABLE” BASIS WITH NO WARRANTIES WHATSOEVER. WE AND THE COMPANIES’ ENTITIES EXPRESSLY DISCLAIM TO THE FULLEST EXTENT PERMITTED BY LAW ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS
+
+(b) WE AND OUR PERSONNEL DISCLAIM ANY WARRANTIES REGARDING THE SECURITY, RELIABILITY, TIMELINESS, AND PERFORMANCE OF THE SERVICE. PARTICULARLY, WE AND THE COMPANIES’ ENTITIES MAKE NO WARRANTY THAT (i) THE SERVICE WILL MEET YOUR REQUIREMENTS; (ii) THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE; (iii) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SERVICE WILL BE ACCURATE OR RELIABLE; AND (iv) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE SERVICE WILL MEET YOUR EXPECTATIONS
+
+(c) WE AND OUR PERSONNEL DISCLAIM, ANY WARRANTIES FOR ANY INFORMATION OR ADVICE OBTAINED THROUGH THE SERVICE;
+
+(d) WE AND OUR PERSONNEL DISCLAIM ANY WARRANTIES FOR SERVICES OR GOODS RECEIVED THROUGH OR ADVERTISED ON THE SERVICE OR RECEIVED THROUGH ANY LINKS PROVIDED BY THE SERVICE, AS WELL AS FOR ANY INFORMATION OR ADVICE RECEIVED THROUGH ANY LINKS PROVIDED IN THE SERVICE;
+
+(e) YOU DOWNLOAD OR OTHERWISE OBTAIN INFORMATION OR DATA THROUGH THE USE OF THE SERVICE AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH INFORMATION OR DATA.
+
+Limitation of Liability
+UNDER NO CIRCUMSTANCES WILL WE AND/OR OUR PERSONNEL BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH USE OF THE SERVICE, WHETHER OR NOT WE AND/OR OUR PERSONNEL HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES, RESULTING FROM: (i) THE USE OR THE INABILITY TO USE THE SERVICE; (ii) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS AND SERVICES RESULTING FROM ANY GOODS, DATA, INFORMATION OR SERVICES PURCHASED OR OBTAINED OR TRANSACTIONS ENTERED INTO THROUGH OR FROM THE SERVICE; (iii) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SERVICE; (iv) ANY RELIANCE ON THE SERVICE; (v) THE INTERRUPTION, SUSPENSION, OR TERMINATION OF THE SERVICE (INCLUDING SUCH DAMAGES INCURRED BY THIRD PARTIES); OR (vi) ANY OTHER MATTER RELATING TO THE SERVICE.
+
+IN ANY EVENT, UNDER NO CIRCUMSTANCES SHALL WE AND/OR OUR PERSONNEL BE LIABLE TO YOU FOR AN AMOUNT EXCEEDING US$100.00.
+
+WITHOUT LIMITATION TO THE GENERALITY OF THE FOREGOING, UNDER NO CIRCUMSTANCES SHALL WE AND/OR OUR PERSONNEL BE HELD LIABLE FOR ANY DELAY OR FAILURE IN PERFORMANCE RESULTING DIRECTLY OR INDIRECTLY FROM ACTS OF NATURE, FORCES, OR CAUSES BEYOND OUR REASONABLE CONTROL, INCLUDING, WITHOUT LIMITATION, INTERNET FAILURES, COMPUTER EQUIPMENT FAILURES, TELECOMMUNICATION EQUIPMENT FAILURES, OTHER EQUIPMENT FAILURES, ELECTRICAL POWER FAILURES, STRIKES, LABOUR DISPUTES, RIOTS, INSURRECTIONS, CIVIL DISTURBANCES, SHORTAGES OF LABOR OR MATERIALS, FIRES, FLOODS, STORMS, EXPLOSIONS, ACTS OF GOD, WAR, GOVERNMENTAL ACTIONS, ORDERS OF DOMESTIC OR FOREIGN COURTS OR TRIBUNALS, NON-PERFORMANCE OF THIRD PARTIES, OR LOSS OF OR FLUCTUATIONS IN HEAT, LIGHT, OR AIR CONDITIONING.
+
+Indemnity
+You agree to hold harmless and indemnify Company and Our Personnel from and against any third party claim arising from or in any way related to your use of the Service and/or Content, including any liability or expense arising from all claims, losses, damages (actual and consequential), suits, judgments, litigation costs and attorneys' fees, of every kind and nature.
+
+Contributions to Us
+By submitting Personal Information, ideas, suggestions, documents, and/or proposals ("Contributions") to Us through our suggestion, survey or feedback portals, you acknowledge and agree that: (a) your Contributions do not contain confidential or proprietary information; (b) We and/or Our Personnel are not under any obligation of confidentiality, express or implied, with respect to the Contributions; (c) We shall be entitled to use or disclose (or choose not to use or disclose) such Contributions for any purpose, in any way, in any media worldwide; (d) We may have something similar to the Contributions already under consideration or in development; (e) your Contributions automatically become Company’s property without any obligation on Company’s part to you; and (f) you are not entitled to any compensation or reimbursement of any kind from Us under any circumstances and such Contributions may not be attributed to you.</value>
+  </data>
+  <data name="m8" xml:space="preserve">
+    <value>Miscellaneous
+These Terms of Use will be governed by and construed in accordance with the laws of the jurisdiction where you receive the Service. You agree to submit to the non-exclusive jurisdiction of the courts located in the aforesaid jurisdiction.
+
+If for any reason a court of competent jurisdiction finds any provision or portion of the Terms of Use to be unenforceable, the remainder of the Terms of Use will continue in full force and effect.
+
+You shall not assign these Terms of Use or assign any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without Company’s prior written consent. Any such purported assignment or delegation will be null and void and of no force or effect.
+
+These Terms of Use constitute the entire agreement between Company, Our Personnel and you with respect to the subject matter hereof and supersede and replace all prior or contemporaneous understandings or agreements, written or oral, regarding such subject matter. You also may be subject to additional terms and conditions that may apply when you use certain portions of the Service or any affiliate services or third-party content.
+
+Any waiver of any provision of the Terms of Use by a party will be effective only if in writing and signed by Us and such a party. Company’s and/or Our Personnel’s failure to exercise or enforce any right or provision of these terms and conditions shall not constitute a waiver of such right or provision.
+
+You agree that, except as otherwise expressly provided in these Terms of Use, there shall be no third-party beneficiaries to this agreement.
+
+You specifically agree that regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of the Service or the Terms of Use must be filed within one (1) year after such claim or cause of action arose or be forever barred.</value>
+  </data>
+</root>

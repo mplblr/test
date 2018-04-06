@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4016692F-2282-4F40-AA4D-D16D45FA5B88}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LeelaMulti</RootNamespace>
+    <AssemblyName>LeelaMulti</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>LeelaMulti.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>LeelaMulti.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PMSPkgSql, Version=1.0.5099.30050, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="security, Version=1.0.2525.24371, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\recent\Amristar\MobileApp\bin\security.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_LocalResources\plansel.aspx.ja-JP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>plansel.aspx.ja-JP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePwd.aspx.designer.vb">
+      <DependentUpon>ChangePwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePwd.aspx.vb">
+      <DependentUpon>ChangePwd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="connect.aspx.designer.vb">
+      <DependentUpon>connect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="connect.aspx.vb">
+      <DependentUpon>connect.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="layout.Master.designer.vb">
+      <DependentUpon>layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="layout.Master.vb">
+      <DependentUpon>layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layout2.Master.designer.vb">
+      <DependentUpon>layout2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="layout2.Master.vb">
+      <DependentUpon>layout2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeelaMail.aspx.designer.vb">
+      <DependentUpon>LeelaMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeelaMail.aspx.vb">
+      <DependentUpon>LeelaMail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MailService.vb" />
+    <Compile Include="MailService1.vb" />
+    <Compile Include="MailUtil.vb" />
+    <Compile Include="MifiLogin.aspx.designer.vb">
+      <DependentUpon>MifiLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MifiLogin.aspx.vb">
+      <DependentUpon>MifiLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Newuser.aspx.designer.vb">
+      <DependentUpon>Newuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Newuser.aspx.vb">
+      <DependentUpon>Newuser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PlanSel.aspx.designer.vb">
+      <DependentUpon>PlanSel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlanSel.aspx.vb">
+      <DependentUpon>PlanSel.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PostLogin.aspx.designer.vb">
+      <DependentUpon>PostLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostLogin.aspx.vb">
+      <DependentUpon>PostLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pre_exist.aspx.designer.vb">
+      <DependentUpon>pre_exist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pre_exist.aspx.vb">
+      <DependentUpon>pre_exist.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pre_exist1.aspx.designer.vb">
+      <DependentUpon>pre_exist1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pre_exist1.aspx.vb">
+      <DependentUpon>pre_exist1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PushSMSService.vb" />
+    <Compile Include="SndRevBytes.aspx.designer.vb">
+      <DependentUpon>SndRevBytes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SndRevBytes.aspx.vb">
+      <DependentUpon>SndRevBytes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="terms.aspx.designer.vb">
+      <DependentUpon>terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="terms.aspx.vb">
+      <DependentUpon>terms.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usererror.aspx.designer.vb">
+      <DependentUpon>usererror.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usererror.aspx.vb">
+      <DependentUpon>usererror.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="usererror1.aspx.designer.vb">
+      <DependentUpon>usererror1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usererror1.aspx.vb">
+      <DependentUpon>usererror1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserErrorNew.aspx.designer.vb">
+      <DependentUpon>UserErrorNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserErrorNew.aspx.vb">
+      <DependentUpon>UserErrorNew.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Validator.vb" />
+    <Compile Include="welcome.aspx.designer.vb">
+      <DependentUpon>welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.aspx.vb">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\layout.Master.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout.Master.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout.Master.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout.Master.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout.Master.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout.Master.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout.Master.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.ar-Sa.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\welcome.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\NewUser.aspx.ko-KR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\plansel.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\plansel.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\plansel.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="arabic.css" />
+    <Content Include="bin\ja-JP\LeelaMulti.resources.dll" />
+    <Content Include="bin\LeelaMulti.dll" />
+    <Content Include="bin\LeelaMulti.pdb" />
+    <Content Include="bin\LeelaMulti.xml" />
+    <Content Include="bin\PMSPkgSql.dll" />
+    <Content Include="ChangePwd.aspx" />
+    <Content Include="connect.aspx" />
+    <Content Include="fonts\font.css" />
+    <Content Include="fonts\pts55f-demo.html" />
+    <Content Include="fonts\pts55f-webfont.svg" />
+    <Content Include="fonts\pts75f-demo.html" />
+    <Content Include="fonts\pts75f-webfont.svg" />
+    <Content Include="Images\already_purchased_btn.jpg" />
+    <Content Include="Images\already_purchased_btn.png" />
+    <Content Include="Images\arabic_tab.jpg" />
+    <Content Include="Images\btn_bg.jpg" />
+    <Content Include="Images\btn_bg_hover.jpg" />
+    <Content Include="Images\chinese_tab.jpg" />
+    <Content Include="Images\connect_btn.jpg" />
+    <Content Include="Images\connect_btn.png" />
+    <Content Include="Images\eng_tab.jpg" />
+    <Content Include="Images\faq.jpg" />
+    <Content Include="Images\footer_logo.jpg" />
+    <Content Include="Images\french_tab.jpg" />
+    <Content Include="Images\input_bg.jpg" />
+    <Content Include="Images\japan_tab.jpg" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\mifi_logo.png" />
+    <Content Include="Images\nav_bg_left.jpg" />
+    <Content Include="Images\spanish_tab.jpg" />
+    <Content Include="Images\u_tab.jpg" />
+    <Content Include="Images\website_btn.jpg" />
+    <Content Include="Images\website_btn.png" />
+    <Content Include="index.aspx" />
+    <Content Include="leela.css" />
+    <Content Include="LeelaMail.aspx" />
+    <Content Include="MifiLogin.aspx" />
+    <Content Include="Newuser.aspx" />
+    <Content Include="PlanSel.aspx" />
+    <Content Include="PostLogin.aspx" />
+    <Content Include="pre_exist.aspx" />
+    <Content Include="pre_exist1.aspx" />
+    <Content Include="SndRevBytes.aspx" />
+    <Content Include="terms.aspx" />
+    <Content Include="usererror.aspx" />
+    <Content Include="usererror1.aspx" />
+    <Content Include="UserErrorNew.aspx" />
+    <Content Include="welcome.aspx" />
+    <Content Include="layout2.Master" />
+    <Content Include="App_LocalResources\plansel.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\plansel.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\plansel.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\layout2.master.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.ko-KR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ChangePwd.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Newuser.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="App_LocalResources\plansel.aspx.ja-JP.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>plansel.aspx.ja-JP.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App_LocalResources\pre_exist1.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.ko-KR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist1.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\pre_exist.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\terms.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\UserErrorNew.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\usererror.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.ar-SA.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.es-ES.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.de-DE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.zh-CN.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\PostLogin.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="layout.Master" />
+    <None Include="fonts\pts55f-webfont.eot" />
+    <None Include="fonts\pts55f-webfont.ttf" />
+    <None Include="fonts\pts55f-webfont.woff" />
+    <None Include="fonts\pts75f-webfont.eot" />
+    <None Include="fonts\pts75f-webfont.ttf" />
+    <None Include="fonts\pts75f-webfont.woff" />
+    <None Include="fonts\Thumbs.db" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\bin\ja-JP\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1637</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
